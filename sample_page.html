@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ACMP</title>
+<!--    <script type="text/x-mathjax-config">-->
+<!--    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});-->
+<!--    </script>-->
+<!--    <script type="text/javascript"-->
+<!--    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">-->
+<!--    </script>-->
+<!--    <script type="text/javascript" src="statics/js/MathJax.js"></script>-->
+<!---->
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { fonts: ["TeX"] }
+  });
+</script>
+<script type="text/javascript"  src="statics/js/MathJax.js">
+</script>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="statics/css/bootstrap.min.css">
+    <link rel="stylesheet" href="statics/css/main.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="header">
+        <div class="header__main-title text-center">
+            <h1 class="display-2">ACMP</h1>
+            <h5 class="display-5">Adaptive Motion Planning via Dynamic Constraint Satisfaction for Autonomous Mobile Robots</h5>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="row my-4 text-center">
+            <div class="col">
+                <h2>Case 1 MATLAB Simulation of Quadrotor</h2>
+            </div>
+        </div>
+
+            <h3>Experiment Results</h3>
+
+            <h4>1. Scalability</h4>
+        <div class="row">
+
+            <div class="col">
+                <iframe width="560" height="420" src="statics/video/Trajectory-10.mp4" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="col">
+                <!--<h5>Case 1 Simulation with Matlab</h5>-->
+                <!--<p>Three settings of simulation are evaluated for the scalability of the approach </p>-->
+                <ul>
+                    <li>
+                        <i>Setting 1</i> <br>
+                        random generated environment with the scale of $10\times10\times10m$, private regions are marked as red and large spheres, and obstacles
+                        are marked as blue and small spheres. <br>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <iframe width="560" height="420" src="statics/video/Trajectory-50.mp4" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="col">
+                <ul>
+                    <li>
+                        <i>Setting 2 </i> <br>
+                           simulated environment based on the building dataset of Portland in the USA with the original space of $500\times500\times100m$ and compressed into $50\times50\times10$<br>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <iframe width="560" height="420" src="statics/video/Trajectory-100.mp4" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="col">
+                <ul>
+                    <li>
+                        <i>Setting 3</i> <br>
+                           simulated environment based on the building dataset of Portland in the USA the original space of $1000\times1000\times100m$ and compressed into $100\times100\times10$<br>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <br>
+        <h4>2. Choice of violation tolerance</h4>
+        <div class="row my-3">
+            <div class="col">
+                <div id="drone-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#drone-carousel" data-slide-to="0" class="active"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="statics/imgs/UAV_epsilon.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!--<h5>Case 3 UUV Oceanic Surveillance</h5>-->
+                <p class="mb-3">Given a set of violation tolerances, the possibilities that relaxable constraints are reported as unsatisfiable are recorded per simulation
+                                under $\rho_o = 2\%, \rho_p = 2\%$.
+                                These results show that choosing the right violation tolerance parameters can help determine the appropriate set of unsatisfied constraints
+                                with a smaller impact on the algorithm’s efficiency.
+                </p>
+
+            </div>
+        </div>
+        </p>
+
+
+        <hr class="my-5">
+    </section>
+
+
+    <section class="container">
+        <div class="row my-4 text-center">
+            <div class="col">
+                <h2>Case 2 UUV Oceanic Surveillance</h2>
+            </div>
+        </div>
+        <p class="mb-3">This example originates from [1]. Rather than considering single-objective optimization for the UUV scenario, we extended it to achieve multiple constraints
+            under uncertainties and disturbances, while other parameters like sensor configurations are kept the same
+                    <br>The constraints to meet in this scenario are listed as below:</p>
+                <ul>
+                    <li>Scanning Distance ($C_l$): A segment of the surface over a distance of $L_t=100$ km is expected to be examined by the UUV within $\Delta=10$ hours,
+                        while the unrelaxable constraint of surveillance distance is $L=90$ km.  </li>
+                    <li>Energy Consumption ($C_E$): A total amount of energy $E_t=5.4$ MJ is expected to be consumed, while the maximum amount of energy is $E=6$ MJ.</li>
+                    <li>Accuracy ($C_{\varphi}$): The accuracy of measurements is targeted at $A_t=90\%$, while the unrelaxable accuracy constraint is set as $A = 80\%$. </li>
+                </ul>
+         </p> <br>
+<!--        <p>-->
+<!--            <h3>A. Constraints Satisfaction Modeling</h3>-->
+<!--            <p>The UUV is equiped with 5 sensors for ocean surveillance. The scanning time 10 hours is 360 time instance, $x_i, i\in[1,5]$ is the portion of time the sensor $i$ should be-->
+<!--                used during system operation in each instance. $Acc_i$ is the accuracy of sensor $i$; $E_i$ is the energy consumed by sensor; $V_i$ is the scanning speed of sensor. $q_i$ is-->
+<!--                portion of accuracy of sensor and $p_i$ is for scanning speed respectively in decimals. The energy consumed is related with working accuracy and speed of sensor. The-->
+<!--                corresponding measures are listed as follows: $\mathcal{X}_{l}= \sum_{k=0}^{T} \sum_{i=0}^{N} x_iq_iV_i \tau$,-->
+<!--                $\mathcal{X}_{e}= \sum_{k=0}^{T} \sum_{i=0}^{N} x_iE_i\cdot \frac{e^{p_i + q_i}-1}{e^2-1} \tau$, and-->
+<!--                $\mathcal{X}_{\varphi}=\sum_{k=0}^{T} \sum_{i=0}^{N} x_ip_iAcc_i$, where $T=360$, i.e., adaptations is performed every 100 surface measurements of the UUV state,, and the-->
+<!--                time instance $k$ incremented by $1\sim100$. The constraint satisfaction functions are listed as follows:</p>-->
+<!--            <strong>Scanning distance</strong>: A segment of surface over a distance of $L_t=100$ km is expected to be examined by the UUV within $\Delta=10$ hours, while the distance-->
+<!--             threshold is $L=90$ km.-->
+<!--            \begin{equation}-->
+<!--            \mathrm{DS}^2(\mathcal{X}_{l})=\left\{-->
+<!--            \begin{aligned}-->
+<!--            &1 , & \mathcal{X}_{l}\geq L_t \\-->
+<!--            &\frac{\mathcal{X}_{l}-L}{L_t-L},  &  L \leq \mathcal{X}_{l} < L_t  \\-->
+<!--            &0,  & \mathcal{X}_{l} < L-->
+<!--            \end{aligned}-->
+<!--            \right.-->
+<!--            \end{equation}-->
+<!--            <strong>Energy-saving</strong>: A total amount of energy $E_t=5.4$ MJ is expected to be consumed, while the maximum amount of energy is $E=6$ MJ.-->
+<!--            \begin{equation}-->
+<!--            \mathrm{DS}^1(\mathcal{X}_{e})=\left\{-->
+<!--            \begin{aligned}-->
+<!--            &1 , & \mathcal{X}_e \leq E_t \\-->
+<!--            &\frac{E-\mathcal{X}_e}{E-E_t},   & E_t < \mathcal{X}_e \leq E  \\-->
+<!--            &0,  &\mathcal{X}_e > E-->
+<!--            \end{aligned}-->
+<!--            \right.-->
+<!--            \end{equation}-->
+<!--            <strong>Accuracy</strong>: The accuracy of sensor measurements is targeted at $A_t=90\%$, while the accuracy threshold is set as $A = 80\%$.-->
+<!--            \begin{equation}-->
+<!--            \mathrm{DS}^2(\mathcal{X}_{\varphi})=\left\{-->
+<!--            \begin{aligned}-->
+<!--            &1 , & \mathcal{X}_{\varphi}\geq A_t \\-->
+<!--            &\frac{\mathcal{X}_{\varphi}-A}{A_t-A},  &  A \leq \mathcal{X}_{\varphi_k} < A_t  \\-->
+<!--            &0,  & \mathcal{X}_{\varphi} < A-->
+<!--            \end{aligned}-->
+<!--            \right.-->
+<!--            \end{equation}-->
+<!--        </p>-->
+
+<!--        <p>-->
+            <h3>Experiment Results</h3> <br>
+            <h4>1. Effectivess</h4>
+           <div class="row my-3">
+            <div class="col">
+                <div id="drone-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#drone-carousel" data-slide-to="0" class="active"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="statics/imgs/UUV_effectiveness.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!--<h5>Case 3 UUV Oceanic Surveillance</h5>-->
+                <p> At time instant $k = 100$, we change the target energy consumption ($E_t$) from 5.4 MJ to 5.0 MJ; at $k = 160$,
+                    we change the distance expected to be scanned ($L_t$) from 100 km to 105 km. The figure show that
+                    changes in constraints lead to rearrangement of the sensor usage arrangement, as the time portion for $S2$ increases.
+                    ACMP also reacts to changes in sensor parameters and sensor failures. At $k = 220$, the measurement
+                    accuracy of sensor $S3$ drastically decreases from $83\%$ to $43\%$, at $k = 290$, $S4$ stops working,
+                    and leads to a suboptimal solution that $S1$ is more exploited. Finally, the mission ends with average
+                    measurement accuracy of $90.1\%$, scanning distance of 106.7 km, and energy consumption of 4.98 MJ.
+                </p>
+            </div>
+           </div>
+               <br>
+            <h4>2. Robustness</h4>
+           <div class="row my-3">
+            <div class="col">
+                <div id="drone-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#drone-carousel" data-slide-to="0" class="active"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="statics/imgs/UUV.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!--<h5>Case 3 UUV Oceanic Surveillance</h5>-->
+                <p>The performance of ACMP and SCMP is compared while adding disturbances to sensors' parameters (i.e., sensor accuracy, scanning speed, and energy consumption)
+                    at random time instants.
+                    With ACMP, the UUV can scan a longer distance with higher accuracy and less energy consumption than SCMP.
+                </p>
+            </div>
+        </div>  <br>
+        <h4>3. Real-time Performance</h4>
+           <div class="row my-3">
+            <div class="col">
+                <div id="drone-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#drone-carousel" data-slide-to="0" class="active"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="statics/imgs/UUV_realtime.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!--<h5>Case 3 UUV Oceanic Surveillance</h5>-->
+                <p>The difference in average computation time between SCMP and ACMP is about 130ms in the quadrotor case and 7ms in the UUV case.
+                </p>
+            </div>
+        </div>  <br>
+        <h4>4. Choice of violation tolerance</h4>
+           <div class="row my-3">
+            <div class="col">
+                <div id="drone-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#drone-carousel" data-slide-to="0" class="active"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="statics/imgs/UUV_epsilon.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!--<h5>Case 3 UUV Oceanic Surveillance</h5>-->
+                <p class="mb-3"> Given a set of violation tolerances, the possibilities that relaxable constraints are reported as unsatisfiable are recorded per simulation
+                                under 9 times of random disturbances. </p>
+
+            </div>
+        </div>
+        </p>
+        </p>
+
+
+
+
+        <hr class="my-5">
+    </section>
+
+       <section class="container">
+        <div class="row my-4 text-center">
+            <div class="col">
+                <h2>Case 3 DJI Matrice 100 UAV Implementation</h2>
+            </div>
+        </div>
+
+
+        <div class="row my-3">
+            <div class="col">
+                <div id="drone-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#drone-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#drone-carousel" data-slide-to="1"></li>
+                        <li data-target="#drone-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="statics/imgs/Environment.jpg" class="d-block w-100" alt="Environment">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Environment</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="statics/imgs/private-house.jpg" class="d-block w-100" alt="Private House">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Private House</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="statics/imgs/Setup.png" class="d-block w-100" alt="Experiment Setup">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#drone-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#drone-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <h5>Experiment Setup</h5>
+                <p class="mb-3">The Unmanned Aerial Vehicle hardware specifications are: </p>
+                <ul>
+                    <li>Vehicle Type <br> DJI Matrice 100</li>
+                    <li>Control Method <br> DJI Mobile SDK</li>
+                    <li>Sensor <br>Camera: Zenmuse Z3 (resolution: $1920\times1080 \sim 4096\times 2160$, orientation angle $-90^\circ \sim 30^\circ$) </li>
+                    <li>Laptop <br>Intel(R) Core(TM) i7-7500U CPU@2.70GHz and NVIDIA GeForce 940MX</li>
+                </ul>
+            </div>
+                    <div class="row">
+            <div class="col">
+                <iframe width="560" height="315" src="statics/video/masked_reference.mp4" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col">
+                <h5>Normal Trajectory Following</h5>
+<!--                <p>The normal run is consists of three parts:</p>-->
+                <ol>
+                    <li class="mt-3">The UAV following the reference path with camera orientation down to the ground.</li>
+                    <li class="mt-3">The flight mission is expected to be completed within the time budget ($\Delta_t=24$ time steps)
+                        without any privacy risk.</li>
+                    <li class="mt-3">The UAV motion is discrete (up, down, left, right, forward, backward), and it moves at a constant speed of $0.5m/s$.
+                        The scale of the environment is $20\times20\times10m$, time step is $\tau=2s$, and prediction horizon is $N=2$.
+                        $\omega \in [33.3\%, 100\%]$, and orientation angles $-90^\circ$ (direct to ground) is represented with $\omega = 100\%$ and $30^\circ$ is $w = 33.3\%$.</li>
+                    <li class="mt-3">The approach is evaluated under the following tow settings:</li>
+                    <ul>
+                        <li>Setting 1<br>The deadline of the mission ($\Delta$) is set as 48 time steps, with the affected radius of the private region is $D_p=4.5m$. </li>
+                        <li>Setting 2 <br>The deadline of the mission ($\Delta$) is set as 30 time steps, with the affected radius of the private region is $D_p=4m$. </li>
+                     </ul>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <iframe width="560" height="315"  src="statics/video/masked_plan.mp4" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col">
+                <h5>Adaptive-Constrained Motion Planning with Setting 1</h5>
+                <p>At the seventh time step, the UAV detects and locates the private house. With ACMP, the UAV analyzes whether the timeliness and privacy constraints can be satisfied simultaneously.</p>
+                <p>After constraint satisfaction checking and analysis, the UAV found that these two constraints cannot be satisfied at the same time and figured out an compromised resolution to go up,
+                    turning the orientation angle up to the sky without exposing the private house.</p>
+                <p>Finally, the UAV reaches the destination with 26 time steps, timeliness satisfaction of $DS^1(\mathcal{X}_\xi)=91.7\%$, and privacy preserving satisfaction of $DS^2(\mathcal{X}_{P})=96.6\%$.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <iframe width="560" height="315"  src="statics/video/plan_2.mp4" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col">
+                <h5>Adaptive-Constrained Motion Planning with Setting 2</h5>
+                <p>At the eighth time step, the UAV detects and locates the private house. With ACMP, the UAV analyzes whether the timeliness and privacy constraint can be satisfied.</p>
+                <p>After the constraint satisfaction checking and analyzing steps, the UAV finds the timeliness constraint can be guaranteed while the privacy constraint is unsatisfiable.
+                    It then changes the camera's orientation to avoid exposing the private house as much as possible while not changing the path. </p>
+                <p>Finally, the UAV reaches the destination with 24 time steps, timeliness satisfaction of $DS^1(\mathcal{X}_\xi)=100\%$, and privacy preserving satisfaction of $DS^2(\mathcal{X}_{P})=83.1\%$.</p>
+            </div>
+        </div>
+        <p>
+            <h5>Notes</h5>
+            As the UAV is controlled by a customized Android application deployed on a remote controller, communication delay is taken into consideration such that the UAV will wait for the next command and take
+            the action.
+            In the future work, we plan to exploit the onboard SDK to save the communication time.
+        </p>
+
+        </div>
+
+
+        <hr class="my-5">
+    </section>
+
+   <section class="container">
+        <div class="row my-4 text-center">
+            <div class="col">
+                <h2>Supplemental Materials</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                 <p>For more technical and experimental details, please refer to the supplemental material below:</p>
+                <a href="statics/appendix.pdf" target="_blank">Supplemental Material</a>
+            </div>
+        </div>
+        <hr class="my-5">
+    </section>
+
+       <section class="container">
+        <div class="row my-5 text-center">
+            <div class="col">
+                <h2>Reference</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                 <p>[1] S. Shevtsov and D. Weyns, “Keep it simplex: Satisfying multiple goals with guarantees in control-based self-adaptive systems,” in Proceedings of
+                     the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering. ACM, 2016, pp.229–241</p>
+            </div>
+        </div>
+           <hr class="my-5">
+    </section>
+
+
+    <script src="statics/js/jquery-3.4.1.min.js"></script>
+    <script src="statics/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

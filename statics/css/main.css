@@ -1,0 +1,31 @@
+.header {
+    height: 20rem;
+    background-image: url('../imgs/background.svg');
+    background-size: cover;
+    width: 100vw;
+    position: relative;
+}
+
+.header__main-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+.carousel-caption {
+    color: yellow;
+}
+
+#robotcar-carousel img {
+    max-height: 25rem;
+}
