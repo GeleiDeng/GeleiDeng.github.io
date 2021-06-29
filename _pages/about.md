@@ -8,17 +8,15 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Cybersecurity Lab, SCSE</p>
+    <p>Nanyang Technological University</p>
+    <p>Singapore</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first-year PhD student at Nanyang Technological university, advised by [Prof. Zhang Tianwei](https://personal.ntu.edu.sg/tianwei.zhang/) and [Prof. Liu Yang](https://personal.ntu.edu.sg/yangliu/). I received my bachelor degree at Singapore University of Technology and Design, where I was fortunate enough to be advised by [Prof. Chen Jiajia](http://faculty.nuaa.edu.cn/CHENJIAJIA/zh_CN/index.htm). My current research interests cover a wide ranges in cyber security domain, including robotic system security, web security, fuzzing, cryptography and more.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before PhD study, I was a penetration tester and cyber security researcher working for Singapore government agency. My main strength is on web security and webapp source code review. My penetration testing research are published at [my personal blog](https://victomteng1997.github.io), and here is my [htb profile](https://www.hackthebox.eu/home/users/profile/117283).
