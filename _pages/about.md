@@ -6,7 +6,7 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   address: >
     <p>Cybersecurity Lab, SCSE</p>
     <p>Nanyang Technological University</p>
