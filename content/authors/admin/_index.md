@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Gelei Deng (邓格雷)
+title: Gelei Deng
 
 # Full name (for SEO)
 first_name: Gelei
@@ -75,5 +75,7 @@ email: ''
 highlight_name: true
 ---
 
-I am a third-year Ph.D. candidate at Nanyang Technological University, advised by Prof. Tianwei Zhang and Prof. Yang Liu. My current research interests cover a wide ranges in cyber security domain, including system security, web security, fuzzing, blockchain and LLM security.
+I am a third-year Ph.D. candidate at Nanyang Technological University, advised by Prof. [Tianwei Zhang](https://personal.ntu.edu.sg/tianwei.zhang/) and Prof. [Yang Liu](https://personal.ntu.edu.sg/yangliu/). I'm also working as a part-time blockchain auditor at [Quantstamp](https://quantstamp.com/).
+
+My current research interests cover a wide ranges in cyber security domain, including system security, web security, fuzzing, blockchain and LLM security.
 {style="text-align: justify;"}
