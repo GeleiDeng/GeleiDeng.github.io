@@ -33,8 +33,8 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Nanayang Technological University
+    - course: PhD in Computer Science
+      institution: Nanyang Technological University
       year: 2020
 
 
