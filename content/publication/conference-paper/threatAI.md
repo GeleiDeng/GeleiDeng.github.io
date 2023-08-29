@@ -30,7 +30,7 @@ publishDate: '2022-11-06T00:00:00Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
+publication: In *Computers & Security*
 publication_short: In *Computers & Security*
 
 abstract: AI has provided us with the ability to automate tasks, extract information from vast amounts of data, and synthesize media that is nearly indistinguishable from the real thing. However, positive tools can also be used for negative purposes. In particular, cyber adversaries can use AI to enhance their attacks and expand their campaigns. Although offensive AI has been discussed in the past, there is a need to analyze and understand the threat in the context of organizations. For example, how does an AI-capable adversary impact the cyber kill chain? Does AI benefit the attacker more than the defender? What are the most significant AI threats facing organizations today and what will be their impact on the future? In this study, we explore the threat of offensive AI on organizations. First, we present the background and discuss how AI changes the adversary’s methods, strategies, goals, and overall attack model. Then, through a literature review, we identify 32 offensive AI capabilities which adversaries can use to enhance their attacks. Finally, through a panel survey spanning industry, government and academia, we rank the AI threats and provide insights on the adversaries.
