@@ -36,7 +36,7 @@ publication_short: AISCC 2024
 
 abstract: Large Language Models (LLMs) have gained immense popularity and are being increasingly applied in various domains. Consequently, ensuring the security of these models is of paramount importance Jailbreak attacks, which manipulate LLMs to generate malicious content, are recognized as a significant vulnerability. While existing research has predominantly focused on direct jailbreak attacks on LLMs, there has been limited exploration of indirect methods. The integration of various plugins into LLMs, notably Retrieval Augmented Generation (RAG), which enables LLMs to incorporate external knowledge bases into their response generation such as GPTs, introduces new avenues for indirect jailbreak attacks. To fill this gap, we investigate indirect jailbreak attacks on LLMs, particularly GPTs, introducing a novel attack vector named Retrieval Augmented Generation Poisoning. This method, PANDORA, exploits the synergy between LLMs and RAG through prompt manipulation to generate unexpected responses. PANDORA uses maliciously crafted content to influence the RAG process, effectively initiating jailbreak attacks. 
 
-tags: [Testing]
+tags: [LLM, Jailbreak]
 
 # Display this page in the Featured widget?
 featured: false

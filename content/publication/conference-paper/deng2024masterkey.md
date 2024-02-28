@@ -21,7 +21,7 @@ author_notes:
   - 'Equal contribution'
 
 
-date: '2023-12-10T00:00:00Z'
+date: '2024-02-29T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -31,15 +31,15 @@ publishDate: '2024-02-29T00:00:00Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['3']
+publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In NDSS 2024
-publication_short: NDSS 2024
+publication: In the Network and Distributed System Security Symposium (NDSS) 2024
+publication_short: In NDSS 2024
 
 abstract: In this paper, we present Jailbreaker, a comprehensive framework that offers an in-depth understanding of jailbreak attacks and countermeasures. Our work makes a dual contribution. First, we propose an innovative methodology inspired by time-based SQL injection techniques to reverse-engineer the defensive strategies of prominent LLM chatbots, such as ChatGPT, Bard, and Bing Chat. This time-sensitive approach uncovers intricate details about these services' defenses, facilitating a proof-of-concept attack that successfully bypasses their mechanisms. Second, we introduce an automatic generation method for jailbreak prompts. Leveraging a fine-tuned LLM, we validate the potential of automated jailbreak generation across various commercial LLM chatbots. Our method achieves a promising average success rate of 21.58%, significantly outperforming the effectiveness of existing techniques. We have responsibly disclosed our findings to the concerned service providers, underscoring the urgent need for more robust defenses. Jailbreaker thus marks a significant step towards understanding and mitigating jailbreak threats in the realm of LLM chatbots.
 
-tags: [Testing]
+tags: [Testing, Jailbreak, LLM]
 
 # Display this page in the Featured widget?
 featured: false

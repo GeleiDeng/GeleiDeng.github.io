@@ -52,7 +52,7 @@
     </item>
     
     <item>
-      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
+      <title>ASTER: Automatic Speech Recognition System Accessibility Testing for Stutterers</title>
       <link>https://example.com/publication/conference-paper/liu2023aster/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/conference-paper/liu2023aster/</guid>
@@ -377,7 +377,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-643281975&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-524637819&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -387,7 +387,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-643281975&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-524637819&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

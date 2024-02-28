@@ -75,7 +75,7 @@ email: ''
 highlight_name: true
 ---
 
-I am a third-year Ph.D. candidate at Nanyang Technological University, advised by Prof. [Tianwei Zhang](https://personal.ntu.edu.sg/tianwei.zhang/) and Prof. [Yang Liu](https://personal.ntu.edu.sg/yangliu/). I'm also working as a part-time blockchain auditor at [Quantstamp](https://quantstamp.com/).
+I am a fourth-year Ph.D. candidate at Nanyang Technological University, advised by Prof. [Tianwei Zhang](https://personal.ntu.edu.sg/tianwei.zhang/) and Prof. [Yang Liu](https://personal.ntu.edu.sg/yangliu/). I'm also working as an auditor and AI scientist at [Quantstamp](https://quantstamp.com/).
 
-My current research interests cover a wide ranges in cyber security domain, including system security, web security, fuzzing, blockchain and LLM security.
+My current research interests cover a wide ranges in cyber security domain, including system security, web security, fuzzing, blockchain and LLM security. I'm exploring the possibilities of leveraging AI systems for security testing and vulnerability identification. 
 {style="text-align: justify;"}
