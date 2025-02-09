@@ -56,7 +56,7 @@ education:
     date_start: '2020-08-01'
     date_end: '2024-09-30'
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on system security testing.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
