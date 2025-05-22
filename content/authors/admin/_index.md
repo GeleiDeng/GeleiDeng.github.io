@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Candidate, AI Engineer, OpenAI Red Team Member
+role: AI Engineer, OpenAI Red Team Member
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -59,7 +59,7 @@ education:
       Thesis on system security testing.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
+      url: 'https://dr.ntu.edu.sg/handle/10356/179958'
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
