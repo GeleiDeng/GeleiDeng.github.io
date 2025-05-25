@@ -2,21 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper-Conference | Gelei Deng</title>
-    <link>https://geleideng.github.io/publication_types/paper-conference/</link>
-      <atom:link href="https://geleideng.github.io/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication_types/paper-conference/</link>
+      <atom:link href="http://localhost:1313/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Paper-Conference</title>
-      <link>https://geleideng.github.io/publication_types/paper-conference/</link>
+      <link>http://localhost:1313/publication_types/paper-conference/</link>
     </image>
     
     <item>
+      <title>PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing</title>
+      <link>http://localhost:1313/publication/preprint/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/preprint/</guid>
+      <description>&lt;p&gt;This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs&amp;rsquo; extensive domain knowledge and reasoning capabilities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Three-Module Architecture&lt;/strong&gt;: Reasoning, Generation, and Parsing modules that work together to emulate human penetration testing workflows&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-World Evaluation&lt;/strong&gt;: Comprehensive benchmark using actual penetration testing targets and CTF challenges&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Significant Performance Gains&lt;/strong&gt;: 228.6% improvement in task completion rates compared to baseline GPT-3.5 model&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Over 6,500 GitHub stars demonstrating strong industry adoption&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Technical Innovation:&lt;/strong&gt;
+PentestGPT addresses critical challenges in LLM-based security testing, including context loss and task-specific reasoning. The framework systematically breaks down complex penetration testing scenarios into manageable sub-tasks, enabling more effective automated security assessments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Open Source Impact:&lt;/strong&gt; The tool has been successfully deployed in real-world penetration testing scenarios and has fostered an active community of security professionals and researchers, validating its practical value in both academic and industrial contexts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An example conference paper</title>
-      <link>https://geleideng.github.io/publication/conference-paper/</link>
+      <link>http://localhost:1313/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://geleideng.github.io/publication/conference-paper/</guid>
+      <guid>http://localhost:1313/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;

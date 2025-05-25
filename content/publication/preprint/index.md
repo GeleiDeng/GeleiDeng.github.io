@@ -1,48 +1,63 @@
 ---
-title: "An example preprint / working paper"
+title: "PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+- Yi Liu
+- Víctor Mayoral-Vilches
+- Peng Liu
+- Yuekang Li
+- Yuan Xu
+- Tianwei Zhang
+- Yang Liu
+- Martin Pinzger
+- Stefan Rass
+date: "2024-08-14T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-08-14T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "33rd USENIX Security Symposium (USENIX Security 24)"
+publication_short: "USENIX Security 2024"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: "Penetration testing, a crucial industrial practice for ensuring system security, has traditionally resisted automation due to the extensive expertise required by human professionals. Large Language Models (LLMs) have shown significant advancements in various domains, suggesting their potential to revolutionize industries. This work establishes a comprehensive benchmark using real-world penetration testing targets and explores the capabilities of LLMs in this domain. We introduce PentestGPT, an LLM-empowered automatic penetration testing tool designed with three self-interacting modules to address individual sub-tasks of penetration testing and mitigate context loss challenges."
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "An LLM-empowered automated penetration testing framework that leverages domain knowledge inherent in LLMs, achieving 228.6% task completion improvement over baseline GPT models."
 
 tags:
 - Large Language Models
+- Penetration Testing
+- Cybersecurity
+- AI Security
+- Security Testing
 
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
+- name: USENIX
+  url: https://www.usenix.org/conference/usenixsecurity24/presentation/deng
+- name: arXiv
+  url: https://arxiv.org/abs/2308.06782
+url_pdf: https://www.usenix.org/system/files/usenixsecurity24-deng.pdf
+url_code: 'https://github.com/GreyDGL/PentestGPT'
+url_dataset: ''
+url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: '#'
-url_video: '#'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'PentestGPT Architecture and Workflow'
   focal_point: ""
   preview_only: false
 
@@ -52,20 +67,25 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- internal-project
+- pentesting-automation
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs' extensive domain knowledge and reasoning capabilities.
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+**Key Features:**
+- **Three-Module Architecture**: Reasoning, Generation, and Parsing modules that work together to emulate human penetration testing workflows
+- **Real-World Evaluation**: Comprehensive benchmark using actual penetration testing targets and CTF challenges
+- **Significant Performance Gains**: 228.6% improvement in task completion rates compared to baseline GPT-3.5 model
+- **Community Impact**: Over 6,500 GitHub stars demonstrating strong industry adoption
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+**Technical Innovation:**
+PentestGPT addresses critical challenges in LLM-based security testing, including context loss and task-specific reasoning. The framework systematically breaks down complex penetration testing scenarios into manageable sub-tasks, enabling more effective automated security assessments.
+
+**Open Source Impact:** The tool has been successfully deployed in real-world penetration testing scenarios and has fostered an active community of security professionals and researchers, validating its practical value in both academic and industrial contexts.
