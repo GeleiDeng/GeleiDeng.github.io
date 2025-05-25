@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2025-05-26
+date: 2025-05-24
 type: landing
 
 design:
@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I'm working on the project [PentestGPT](https://github.com/GreyDGL/PentestGPT). Feel free to check it out!
+        I'm working toward a future where AI systems are both powerful and inherently secure—where artificial intelligence can defend itself and protect the digital world around us. By advancing AI for Security and building robust defenses against emerging threats, we're laying the foundation for an era where intelligent systems can autonomously safeguard our increasingly connected world. Let's collaborate to make this vision a reality!
     design:
       columns: '1'
   - block: collection

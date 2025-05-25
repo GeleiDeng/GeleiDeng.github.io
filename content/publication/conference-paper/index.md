@@ -1,63 +1,60 @@
 ---
-title: 'An example conference paper'
-
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
+title: "MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots"
 authors:
-  - admin
-  - Robert Ford
-
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
-doi: ''
+- admin
+- Yi Liu
+- Yuekang Li
+- Kailong Wang
+- Ying Zhang
+- Zefeng Li
+- Haoyu Wang
+- Tianwei Zhang
+- Yang Liu
+date: "2024-02-26T00:00:00Z"
+doi: "10.14722/ndss.2024.24188"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: "2024-02-26T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: "Proceedings 2024 Network and Distributed System Security Symposium (NDSS)"
+publication_short: "NDSS 2024"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: "Large Language Models (LLMs) have revolutionized Artificial Intelligence services due to their exceptional proficiency in understanding and generating human-like text. However, LLM chatbots are susceptible to jailbreak attacks, where malicious users manipulate prompts to elicit inappropriate or sensitive responses. This work presents MASTERKEY, a comprehensive framework that offers an in-depth understanding of jailbreak attacks and countermeasures. We introduce an automatic generation method for jailbreak prompts, leveraging a fine-tuned LLM to validate the potential of automated jailbreak generation across various commercial LLM chatbots, achieving a 21.58% success rate compared to 7.33% by existing methods."
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "A comprehensive framework for automated jailbreaking of Large Language Model chatbots, featuring novel attack methodologies and systematic analysis of defense mechanisms."
 
 tags:
-  - Large Language Models
+- Large Language Models
+- AI Security
+- Jailbreak Attacks
+- AI Safety
 
-# Display this page in the Featured widget?
 featured: true
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+links:
+- name: NDSS
+  url: https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/
+url_pdf: https://www.ndss-symposium.org/wp-content/uploads/2024/02/ndss2024_paper188.pdf
+url_code: 'https://github.com/LLMSecurity/MasterKey'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
+# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
+  caption: 'MASTERKEY Framework Architecture'
+  focal_point: ""
   preview_only: false
 
 # Associated Projects (optional).
@@ -66,22 +63,22 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+- llm-security
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+This work presents MASTERKEY, a systematic approach to understanding and exploiting vulnerabilities in Large Language Model chatbots. The framework introduces novel methodologies for automated jailbreak attack generation and provides comprehensive analysis of existing defense mechanisms.
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+**Key Contributions:**
+- Novel time-based attack strategy inspired by SQL injection techniques
+- Automated jailbreak prompt generation achieving 21.58% success rate
+- Comprehensive evaluation across mainstream chatbots (ChatGPT, Bard, Bing Chat, Ernie)
+- Systematic analysis of defense mechanisms in commercial LLM services
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+**Impact:** This research has informed major service providers about critical vulnerabilities and contributed to strengthening LLM security measures across the industry.
