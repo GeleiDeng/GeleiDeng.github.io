@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-Robot Systems | Gelei Deng</title>
+    <link>http://localhost:1313/tags/multi-robot-systems/</link>
+      <atom:link href="http://localhost:1313/tags/multi-robot-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multi-Robot Systems</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Multi-Robot Systems</title>
+      <link>http://localhost:1313/tags/multi-robot-systems/</link>
+    </image>
+    
+    <item>
+      <title>An Investigation of Byzantine Threats in Multi-Robot Systems</title>
+      <link>http://localhost:1313/publication/raid21-byzantine/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/raid21-byzantine/</guid>
+      <description>&lt;p&gt;This work investigates Byzantine threats in multi-robot systems, presenting attack methodologies and detection mechanisms for securing collaborative robotics applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Novel Denial-of-Service Attacks Against Cloud-based Multi-Robot Systems</title>
+      <link>http://localhost:1313/publication/dos-multi-robot/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/dos-multi-robot/</guid>
+      <description>&lt;p&gt;This work investigates security vulnerabilities in cloud-based multi-robot systems, presenting novel denial-of-service attacks that can disrupt robot coordination and mission execution in distributed robotics applications.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

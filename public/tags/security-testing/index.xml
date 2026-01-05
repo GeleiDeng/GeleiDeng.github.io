@@ -14,9 +14,9 @@
     
     <item>
       <title>PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing</title>
-      <link>http://localhost:1313/publication/</link>
+      <link>http://localhost:1313/publication/pentestgpt/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/</guid>
+      <guid>http://localhost:1313/publication/pentestgpt/</guid>
       <description>&lt;p&gt;This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs&amp;rsquo; extensive domain knowledge and reasoning capabilities.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -32,21 +32,41 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     </item>
     
     <item>
-      <title>PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing</title>
-      <link>http://localhost:1313/publication/preprint/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint/</guid>
-      <description>&lt;p&gt;This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs&amp;rsquo; extensive domain knowledge and reasoning capabilities.&lt;/p&gt;
+      <title>NAUTILUS: Automated RESTful API Vulnerability Detection</title>
+      <link>http://localhost:1313/publication/nautilus/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/nautilus/</guid>
+      <description>&lt;p&gt;NAUTILUS introduces an automated approach to RESTful API vulnerability detection, addressing a critical gap in web security testing. The framework combines static specification analysis with intelligent dynamic fuzzing to discover security vulnerabilities in modern web APIs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PentestGPT</title>
+      <link>http://localhost:1313/project/pentestgpt/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/pentestgpt/</guid>
+      <description>&lt;p&gt;An LLM-empowered Automatic Penetration Testing Tool with 8k+ GitHub stars.&lt;/p&gt;
+&lt;p&gt;PentestGPT is designed to automate penetration testing by leveraging the domain knowledge inherent in Large Language Models. It features a three-module architecture (Reasoning, Generation, and Parsing) that emulates human penetration testing workflows.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Three-Module Architecture&lt;/strong&gt;: Reasoning, Generation, and Parsing modules that work together to emulate human penetration testing workflows&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Real-World Evaluation&lt;/strong&gt;: Comprehensive benchmark using actual penetration testing targets and CTF challenges&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Significant Performance Gains&lt;/strong&gt;: 228.6% improvement in task completion rates compared to baseline GPT-3.5 model&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Over 6,500 GitHub stars demonstrating strong industry adoption&lt;/li&gt;
+&lt;li&gt;Automated penetration testing guidance&lt;/li&gt;
+&lt;li&gt;Integration with multiple LLM backends&lt;/li&gt;
+&lt;li&gt;Real-world evaluation on CTF challenges&lt;/li&gt;
+&lt;li&gt;228.6% improvement in task completion over baseline models&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Technical Innovation:&lt;/strong&gt;
-PentestGPT addresses critical challenges in LLM-based security testing, including context loss and task-specific reasoning. The framework systematically breaks down complex penetration testing scenarios into manageable sub-tasks, enabling more effective automated security assessments.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Open Source Impact:&lt;/strong&gt; The tool has been successfully deployed in real-world penetration testing scenarios and has fostered an active community of security professionals and researchers, validating its practical value in both academic and industrial contexts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Recognition:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Distinguished Artifact Award at USENIX Security 2024&lt;/li&gt;
+&lt;li&gt;Active collaboration with industry partners (Huawei, ByteDance, etc.)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Morest: Model-based RESTful API Testing with Execution Feedback</title>
+      <link>http://localhost:1313/publication/morest/</link>
+      <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/morest/</guid>
+      <description>&lt;p&gt;Morest introduces a novel approach to RESTful API testing that combines model-based testing with execution feedback, enabling more effective test generation and vulnerability discovery.&lt;/p&gt;
 </description>
     </item>
     

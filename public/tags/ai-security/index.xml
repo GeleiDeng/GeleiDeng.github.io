@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/ai-security/</link>
       <atom:link href="http://localhost:1313/tags/ai-security/index.xml" rel="self" type="application/rss+xml" />
     <description>AI Security</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>AI Security</title>
@@ -13,10 +13,37 @@
     </image>
     
     <item>
+      <title>Oedipus: LLM-enchanced Reasoning CAPTCHA Solver</title>
+      <link>http://localhost:1313/publication/oedipus/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/oedipus/</guid>
+      <description>&lt;p&gt;Oedipus demonstrates the vulnerability of reasoning-based CAPTCHAs to LLM-powered attacks, highlighting the need for more robust human verification mechanisms in the age of advanced AI.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PhyScout: Detecting Sensor Spoofing Attacks via Spatio-temporal Consistency</title>
+      <link>http://localhost:1313/publication/physcout/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/physcout/</guid>
+      <description>&lt;p&gt;PhyScout introduces a practical approach to detecting sensor spoofing attacks by analyzing the spatio-temporal consistency of sensor data, providing robust protection for autonomous systems against adversarial manipulation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VisionGuard: Secure and Robust Visual Perception of Autonomous Vehicles in Practice</title>
+      <link>http://localhost:1313/publication/visionguard/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/visionguard/</guid>
+      <description>&lt;p&gt;VisionGuard presents a practical approach to securing visual perception systems in autonomous vehicles, addressing critical vulnerabilities that could be exploited by adversaries in real-world scenarios.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing</title>
-      <link>http://localhost:1313/publication/</link>
+      <link>http://localhost:1313/publication/pentestgpt/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/</guid>
+      <guid>http://localhost:1313/publication/pentestgpt/</guid>
       <description>&lt;p&gt;This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs&amp;rsquo; extensive domain knowledge and reasoning capabilities.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -32,21 +59,83 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     </item>
     
     <item>
-      <title>PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing</title>
-      <link>http://localhost:1313/publication/preprint/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint/</guid>
-      <description>&lt;p&gt;This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs&amp;rsquo; extensive domain knowledge and reasoning capabilities.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
+      <title>Glitch Tokens in Large Language Models: Categorization Taxonomy and Effective Detection</title>
+      <link>http://localhost:1313/publication/glitch-tokens/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/glitch-tokens/</guid>
+      <description>&lt;p&gt;This work provides a systematic study of glitch tokens in Large Language Models, establishing a categorization taxonomy and developing effective detection methods to improve the reliability and security of LLM systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Hitchhiker&#39;s Guide to Jailbreaking ChatGPT via Prompt Engineering</title>
+      <link>http://localhost:1313/publication/hitchhiker-jailbreak/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/hitchhiker-jailbreak/</guid>
+      <description>&lt;p&gt;This workshop paper provides practical guidance on jailbreaking ChatGPT through prompt engineering, offering insights for both attack and defense research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots</title>
+      <link>http://localhost:1313/publication/masterkey/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/masterkey/</guid>
+      <description>&lt;p&gt;This work presents MASTERKEY, a systematic approach to understanding and exploiting vulnerabilities in Large Language Model chatbots. The framework introduces novel methodologies for automated jailbreak attack generation and provides comprehensive analysis of existing defense mechanisms.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Contributions:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Three-Module Architecture&lt;/strong&gt;: Reasoning, Generation, and Parsing modules that work together to emulate human penetration testing workflows&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Real-World Evaluation&lt;/strong&gt;: Comprehensive benchmark using actual penetration testing targets and CTF challenges&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Significant Performance Gains&lt;/strong&gt;: 228.6% improvement in task completion rates compared to baseline GPT-3.5 model&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Over 6,500 GitHub stars demonstrating strong industry adoption&lt;/li&gt;
+&lt;li&gt;Novel time-based attack strategy inspired by SQL injection techniques&lt;/li&gt;
+&lt;li&gt;Automated jailbreak prompt generation achieving 21.58% success rate&lt;/li&gt;
+&lt;li&gt;Comprehensive evaluation across mainstream chatbots (ChatGPT, Bard, Bing Chat, Ernie)&lt;/li&gt;
+&lt;li&gt;Systematic analysis of defense mechanisms in commercial LLM services&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Technical Innovation:&lt;/strong&gt;
-PentestGPT addresses critical challenges in LLM-based security testing, including context loss and task-specific reasoning. The framework systematically breaks down complex penetration testing scenarios into manageable sub-tasks, enabling more effective automated security assessments.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Open Source Impact:&lt;/strong&gt; The tool has been successfully deployed in real-world penetration testing scenarios and has fostered an active community of security professionals and researchers, validating its practical value in both academic and industrial contexts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt; This research has informed major service providers about critical vulnerabilities and contributed to strengthening LLM security measures across the industry.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models</title>
+      <link>http://localhost:1313/publication/jailbreak-comprehensive/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jailbreak-comprehensive/</guid>
+      <description>&lt;p&gt;This work provides a comprehensive study of jailbreak attacks and defenses for Large Language Models, establishing benchmarks and providing insights for the development of more robust LLM security mechanisms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
+      <link>http://localhost:1313/publication/pandora/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/pandora/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Distinguished Paper Award&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;PANDORA introduces a novel attack vector against RAG-enhanced LLM systems. By strategically poisoning retrieval databases, attackers can effectively bypass safety mechanisms in models like GPT-4, highlighting critical security considerations for RAG deployments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prompt Injection Attack against LLM-integrated Applications</title>
+      <link>http://localhost:1313/publication/prompt-injection/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/prompt-injection/</guid>
+      <description>&lt;p&gt;This work systematically investigates prompt injection vulnerabilities in LLM-integrated applications, revealing critical security risks and providing recommendations for secure LLM deployment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study</title>
+      <link>http://localhost:1313/publication/jailbreaking-chatgpt/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jailbreaking-chatgpt/</guid>
+      <description>&lt;p&gt;This work presents the first comprehensive empirical study on jailbreaking ChatGPT through prompt engineering, identifying key vulnerability patterns and providing insights for improving LLM safety mechanisms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Threat of Offensive AI to Organizations</title>
+      <link>http://localhost:1313/publication/offensive-ai/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/offensive-ai/</guid>
+      <description>&lt;p&gt;This work examines the growing threat of offensive AI to organizations, providing a framework for understanding AI-powered attacks and developing effective defenses against this emerging threat landscape.&lt;/p&gt;
 </description>
     </item>
     

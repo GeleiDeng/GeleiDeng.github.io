@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/large-language-models/</link>
       <atom:link href="http://localhost:1313/tags/large-language-models/index.xml" rel="self" type="application/rss+xml" />
     <description>Large Language Models</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Large Language Models</title>
@@ -13,10 +13,28 @@
     </image>
     
     <item>
+      <title>When Audio and Text Disagree: Revealing Text Bias in Large Audio-Language Models</title>
+      <link>http://localhost:1313/publication/audio-text-disagree/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/audio-text-disagree/</guid>
+      <description>&lt;p&gt;This work investigates the behavior of Large Audio-Language Models when audio and text inputs provide conflicting information, revealing a systematic text bias that has important implications for model reliability and safety.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Oedipus: LLM-enchanced Reasoning CAPTCHA Solver</title>
+      <link>http://localhost:1313/publication/oedipus/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/oedipus/</guid>
+      <description>&lt;p&gt;Oedipus demonstrates the vulnerability of reasoning-based CAPTCHAs to LLM-powered attacks, highlighting the need for more robust human verification mechanisms in the age of advanced AI.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing</title>
-      <link>http://localhost:1313/publication/</link>
+      <link>http://localhost:1313/publication/pentestgpt/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/</guid>
+      <guid>http://localhost:1313/publication/pentestgpt/</guid>
       <description>&lt;p&gt;This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs&amp;rsquo; extensive domain knowledge and reasoning capabilities.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -32,42 +50,122 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     </item>
     
     <item>
-      <title>PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing</title>
-      <link>http://localhost:1313/publication/preprint/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint/</guid>
-      <description>&lt;p&gt;This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs&amp;rsquo; extensive domain knowledge and reasoning capabilities.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Three-Module Architecture&lt;/strong&gt;: Reasoning, Generation, and Parsing modules that work together to emulate human penetration testing workflows&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Real-World Evaluation&lt;/strong&gt;: Comprehensive benchmark using actual penetration testing targets and CTF challenges&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Significant Performance Gains&lt;/strong&gt;: 228.6% improvement in task completion rates compared to baseline GPT-3.5 model&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Over 6,500 GitHub stars demonstrating strong industry adoption&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Technical Innovation:&lt;/strong&gt;
-PentestGPT addresses critical challenges in LLM-based security testing, including context loss and task-specific reasoning. The framework systematically breaks down complex penetration testing scenarios into manageable sub-tasks, enabling more effective automated security assessments.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Open Source Impact:&lt;/strong&gt; The tool has been successfully deployed in real-world penetration testing scenarios and has fostered an active community of security professionals and researchers, validating its practical value in both academic and industrial contexts.&lt;/p&gt;
+      <title>Glitch Tokens in Large Language Models: Categorization Taxonomy and Effective Detection</title>
+      <link>http://localhost:1313/publication/glitch-tokens/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/glitch-tokens/</guid>
+      <description>&lt;p&gt;This work provides a systematic study of glitch tokens in Large Language Models, establishing a categorization taxonomy and developing effective detection methods to improve the reliability and security of LLM systems.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>http://localhost:1313/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
-&lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+      <title>Source Code Summarization in the Era of Large Language Models</title>
+      <link>http://localhost:1313/publication/code-summarization-llm/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/code-summarization-llm/</guid>
+      <description>&lt;p&gt;This work examines how Large Language Models are transforming source code summarization, providing insights into their capabilities and limitations for automated software documentation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Hitchhiker&#39;s Guide to Jailbreaking ChatGPT via Prompt Engineering</title>
+      <link>http://localhost:1313/publication/hitchhiker-jailbreak/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/hitchhiker-jailbreak/</guid>
+      <description>&lt;p&gt;This workshop paper provides practical guidance on jailbreaking ChatGPT through prompt engineering, offering insights for both attack and defense research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots</title>
+      <link>http://localhost:1313/publication/masterkey/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/masterkey/</guid>
+      <description>&lt;p&gt;This work presents MASTERKEY, a systematic approach to understanding and exploiting vulnerabilities in Large Language Model chatbots. The framework introduces novel methodologies for automated jailbreak attack generation and provides comprehensive analysis of existing defense mechanisms.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Contributions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Novel time-based attack strategy inspired by SQL injection techniques&lt;/li&gt;
+&lt;li&gt;Automated jailbreak prompt generation achieving 21.58% success rate&lt;/li&gt;
+&lt;li&gt;Comprehensive evaluation across mainstream chatbots (ChatGPT, Bard, Bing Chat, Ernie)&lt;/li&gt;
+&lt;li&gt;Systematic analysis of defense mechanisms in commercial LLM services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt; This research has informed major service providers about critical vulnerabilities and contributed to strengthening LLM security measures across the industry.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models</title>
+      <link>http://localhost:1313/publication/jailbreak-comprehensive/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jailbreak-comprehensive/</guid>
+      <description>&lt;p&gt;This work provides a comprehensive study of jailbreak attacks and defenses for Large Language Models, establishing benchmarks and providing insights for the development of more robust LLM security mechanisms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
+      <link>http://localhost:1313/publication/pandora/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/pandora/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Distinguished Paper Award&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;PANDORA introduces a novel attack vector against RAG-enhanced LLM systems. By strategically poisoning retrieval databases, attackers can effectively bypass safety mechanisms in models like GPT-4, highlighting critical security considerations for RAG deployments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digger: Detecting Copyright Content Mis-usage in Large Language Model Training</title>
+      <link>http://localhost:1313/publication/digger/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/digger/</guid>
+      <description>&lt;p&gt;Digger introduces methods for detecting whether copyrighted content has been used to train Large Language Models, providing tools for addressing legal and ethical concerns in AI development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PentestGPT</title>
+      <link>http://localhost:1313/project/pentestgpt/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/pentestgpt/</guid>
+      <description>&lt;p&gt;An LLM-empowered Automatic Penetration Testing Tool with 8k+ GitHub stars.&lt;/p&gt;
+&lt;p&gt;PentestGPT is designed to automate penetration testing by leveraging the domain knowledge inherent in Large Language Models. It features a three-module architecture (Reasoning, Generation, and Parsing) that emulates human penetration testing workflows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automated penetration testing guidance&lt;/li&gt;
+&lt;li&gt;Integration with multiple LLM backends&lt;/li&gt;
+&lt;li&gt;Real-world evaluation on CTF challenges&lt;/li&gt;
+&lt;li&gt;228.6% improvement in task completion over baseline models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Recognition:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Distinguished Artifact Award at USENIX Security 2024&lt;/li&gt;
+&lt;li&gt;Active collaboration with industry partners (Huawei, ByteDance, etc.)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Prompt Injection Attack against LLM-integrated Applications</title>
+      <link>http://localhost:1313/publication/prompt-injection/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/prompt-injection/</guid>
+      <description>&lt;p&gt;This work systematically investigates prompt injection vulnerabilities in LLM-integrated applications, revealing critical security risks and providing recommendations for secure LLM deployment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study</title>
+      <link>http://localhost:1313/publication/jailbreaking-chatgpt/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jailbreaking-chatgpt/</guid>
+      <description>&lt;p&gt;This work presents the first comprehensive empirical study on jailbreaking ChatGPT through prompt engineering, identifying key vulnerability patterns and providing insights for improving LLM safety mechanisms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Code Summarization via ChatGPT: How Far Are We?</title>
+      <link>http://localhost:1313/publication/code-summarization-chatgpt/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/code-summarization-chatgpt/</guid>
+      <description>&lt;p&gt;This work provides an empirical evaluation of ChatGPT for automatic code summarization, assessing its capabilities and comparing against existing approaches.&lt;/p&gt;
 </description>
     </item>
     

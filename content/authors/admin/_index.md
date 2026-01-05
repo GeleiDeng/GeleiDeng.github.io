@@ -14,12 +14,16 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: AI Engineer, OpenAI Red Team Member
+role: ""
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Nanyang Technological University
+  - name: Quantstamp
+    url: https://quantstamp.com/
+  - name: NTU
     url: https://www.ntu.edu.sg/
+  - name: OpenAI Red Team
+    url: https://openai.com/blog/red-teaming-network
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -46,20 +50,68 @@ social:
     link: https://www.linkedin.com/in/gelei-deng-225a10112
 
 interests:
-  - Artificial Intelligence Security
+  - AI Security and Safety
   - Large Language Models
+  - Penetration Testing
+  - Blockchain Security
   - System Security
 
 education:
   - area: PhD in Computer Science
     institution: Nanyang Technological University
     date_start: '2020-08-01'
-    date_end: '2024-09-30'
+    date_end: '2024-10-31'
     summary: |
-      Thesis on system security testing.
+      Research on system security, AI security, and penetration testing automation.
+      Advised by Prof. Tianwei Zhang and Prof. Yang Liu at NTU Cyber Security Lab.
     button:
       text: 'Read Thesis'
       url: 'https://dr.ntu.edu.sg/handle/10356/179958'
+  - area: B.E. Electrical Engineering
+    institution: Singapore University of Technology and Design
+    date_start: '2015-05-01'
+    date_end: '2018-09-30'
+    summary: |
+      Engineering Product Design Track, Honor List.
+      Singapore Ministry of Education Full Scholarship (SM2) Holder.
+
+work:
+  - position: Lead AI Engineer & Auditing Engineer
+    company_name: Quantstamp Inc.
+    company_url: 'https://quantstamp.com/'
+    company_logo: ''
+    date_start: '2022-10-01'
+    date_end: ''
+    summary: |
+      - Conduct comprehensive security audits for blockchain projects (DeFi, wallets, DEXs, NFTs)
+      - Lead R&D on leveraging LLMs for automated smart contract auditing and fuzzing
+  - position: Research Assistant Professorship
+    company_name: Nanyang Technological University
+    company_url: 'https://www.ntu.edu.sg/'
+    company_logo: ''
+    date_start: '2024-12-01'
+    date_end: ''
+    summary: |
+      - Conduct pioneering research on AI security at NTU Digital Trust Center
+      - Focus on LLM security and red teaming methodologies
+      - Lead academic initiatives in developing novel threat detection and mitigation techniques
+  - position: Independent Contractor (Red Teaming Network)
+    company_name: OpenAI
+    company_url: 'https://openai.com/'
+    company_logo: ''
+    date_start: '2024-01-01'
+    date_end: ''
+    summary: |
+      - Participate in OpenAI-led red teaming to assess risks and safety profiles
+      - Contributed to evaluation of GPT-4o, DALL-E 3, and Operator
+  - position: Research Engineer & Penetration Tester
+    company_name: Institute for Infocomm Research (I2R, A*STAR)
+    company_url: 'https://www.a-star.edu.sg/i2r'
+    company_logo: ''
+    date_start: '2019-01-01'
+    date_end: '2020-07-31'
+    summary: |
+      - Performed penetration testing and research for Singapore government agencies
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -68,75 +120,81 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 95
         icon: code-bracket
-      - name: Data Science
+      - name: Solidity
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        percent: 85
+        icon: code-bracket
+      - name: Security Testing
         description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
+        percent: 95
+        icon: shield-check
+  - name: Certifications
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
+      - name: OSWE
+        description: 'Offensive Security Web Expert'
         percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+        icon: shield-check
+      - name: OSCP
+        description: 'Offensive Security Certified Professional'
+        percent: 100
+        icon: shield-check
+      - name: BlackHat Training
+        description: 'Advanced Infrastructure Hacking'
+        percent: 100
+        icon: academic-cap
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Chinese (Mandarin)
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Distinguished Artifact Award
+    url: https://www.usenix.org/conference/usenixsecurity24/presentation/deng
+    date: '2024-08-14'
+    awarder: USENIX Security 2024
+    icon: academic-cap
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      Awarded for PentestGPT: An LLM-empowered Automatic Penetration Testing Tool. Open-source tool with 8k+ GitHub stars demonstrating significant community impact.
+  - title: Distinguished Paper Award
+    url: ''
+    date: '2024-02-01'
+    awarder: AISCC Workshop 2024
+    icon: academic-cap
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      Awarded for PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning. Research on RAG security vulnerabilities in LLM systems.
+  - title: Offensive Security Web Expert (OSWE)
+    url: https://www.offensive-security.com/awae-oswe/
+    date: '2021-01-01'
+    awarder: Offensive Security
+    icon: shield-check
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Advanced web application security certification demonstrating expertise in white-box penetration testing and exploit development.
+  - title: Offensive Security Certified Professional (OSCP)
+    url: https://www.offensive-security.com/pwk-oscp/
+    date: '2020-01-01'
+    awarder: Offensive Security
+    icon: shield-check
+    summary: |
+      Industry-recognized penetration testing certification demonstrating hands-on offensive security skills.
+  - title: SUTD Student Honor List
+    url: ''
+    date: '2018-09-01'
+    awarder: SUTD
+    icon: academic-cap
+    summary: |
+      Awarded to top 12 out of 400+ students for best overall academic performance.
 ---
 
 ## About Me
 
-I am a Ph.D. in Computer Science from Nanyang Technological University, where I was advised by Prof. [Tianwei Zhang](https://personal.ntu.edu.sg/tianwei.zhang/) and Prof. [Yang Liu](https://personal.ntu.edu.sg/yangliu/). Currently, I lead AI research at [Quantstamp](https://quantstamp.com/) as an AI Engineer, while contributing to AI safety through my role in the [OpenAI Red Team](https://openai.com/blog/red-teaming-network) and participation in the [Anthropic Red Teaming Challenge](https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems). I have contributed to several high-impact projects, including [GPT-4o](https://cdn.openai.com/gpt-4o-system-card.pdf) and [Operator](https://cdn.openai.com/operator_system_card.pdf).
-
-My research interests span a broad range of cybersecurity domains, encompassing system security, AI security, blockchain security, and security testing. I am particularly passionate about AI for Security: leveraging artificial intelligence for security-related tasks, and advancing AI Safety and Security research.
+I am an AI researcher at Quantstamp. I received my PhD from Nanyang Technological University, advised by Prof. Tianwei Zhang and Prof. Yang Liu. My research focuses on AI safety and AI security. I am particularly interested in leveraging AI and automated systems to attack AI and cyber systems autonomously, enabling scalable and intelligent security testing.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smart Contracts | Gelei Deng</title>
+    <link>http://localhost:1313/tags/smart-contracts/</link>
+      <atom:link href="http://localhost:1313/tags/smart-contracts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Smart Contracts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Smart Contracts</title>
+      <link>http://localhost:1313/tags/smart-contracts/</link>
+    </image>
+    
+    <item>
+      <title>PonziGuard: Detecting Ponzi Schemes on Ethereum with Contract Runtime Behavior Graph (CRBG)</title>
+      <link>http://localhost:1313/publication/ponziguard/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/ponziguard/</guid>
+      <description>&lt;p&gt;PonziGuard introduces Contract Runtime Behavior Graphs for detecting Ponzi scheme smart contracts on Ethereum, providing more accurate detection than existing approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

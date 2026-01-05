@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Security | Gelei Deng</title>
+    <link>http://localhost:1313/tags/system-security/</link>
+      <atom:link href="http://localhost:1313/tags/system-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>System Security</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>System Security</title>
+      <link>http://localhost:1313/tags/system-security/</link>
+    </image>
+    
+    <item>
+      <title>On the (In)Security of Secure ROS2</title>
+      <link>http://localhost:1313/publication/ros2-security/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/ros2-security/</guid>
+      <description>&lt;p&gt;This work presents the first comprehensive security analysis of ROS2&amp;rsquo;s security mechanisms. We discovered multiple vulnerabilities in the Secure ROS2 implementation that can be exploited to compromise robotic systems, highlighting critical security issues in modern robotics middleware.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Investigation of Byzantine Threats in Multi-Robot Systems</title>
+      <link>http://localhost:1313/publication/raid21-byzantine/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/raid21-byzantine/</guid>
+      <description>&lt;p&gt;This work investigates Byzantine threats in multi-robot systems, presenting attack methodologies and detection mechanisms for securing collaborative robotics applications.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/ai-safety/</link>
       <atom:link href="http://localhost:1313/tags/ai-safety/index.xml" rel="self" type="application/rss+xml" />
     <description>AI Safety</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>AI Safety</title>
@@ -13,10 +13,28 @@
     </image>
     
     <item>
+      <title>When Audio and Text Disagree: Revealing Text Bias in Large Audio-Language Models</title>
+      <link>http://localhost:1313/publication/audio-text-disagree/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/audio-text-disagree/</guid>
+      <description>&lt;p&gt;This work investigates the behavior of Large Audio-Language Models when audio and text inputs provide conflicting information, revealing a systematic text bias that has important implications for model reliability and safety.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Glitch Tokens in Large Language Models: Categorization Taxonomy and Effective Detection</title>
+      <link>http://localhost:1313/publication/glitch-tokens/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/glitch-tokens/</guid>
+      <description>&lt;p&gt;This work provides a systematic study of glitch tokens in Large Language Models, establishing a categorization taxonomy and developing effective detection methods to improve the reliability and security of LLM systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots</title>
-      <link>http://localhost:1313/publication/conference-paper/</link>
+      <link>http://localhost:1313/publication/masterkey/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper/</guid>
+      <guid>http://localhost:1313/publication/masterkey/</guid>
       <description>&lt;p&gt;This work presents MASTERKEY, a systematic approach to understanding and exploiting vulnerabilities in Large Language Model chatbots. The framework introduces novel methodologies for automated jailbreak attack generation and provides comprehensive analysis of existing defense mechanisms.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Contributions:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -26,6 +44,51 @@
 &lt;li&gt;Systematic analysis of defense mechanisms in commercial LLM services&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt; This research has informed major service providers about critical vulnerabilities and contributed to strengthening LLM security measures across the industry.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models</title>
+      <link>http://localhost:1313/publication/jailbreak-comprehensive/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jailbreak-comprehensive/</guid>
+      <description>&lt;p&gt;This work provides a comprehensive study of jailbreak attacks and defenses for Large Language Models, establishing benchmarks and providing insights for the development of more robust LLM security mechanisms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digger: Detecting Copyright Content Mis-usage in Large Language Model Training</title>
+      <link>http://localhost:1313/publication/digger/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/digger/</guid>
+      <description>&lt;p&gt;Digger introduces methods for detecting whether copyrighted content has been used to train Large Language Models, providing tools for addressing legal and ethical concerns in AI development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prompt Injection Attack against LLM-integrated Applications</title>
+      <link>http://localhost:1313/publication/prompt-injection/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/prompt-injection/</guid>
+      <description>&lt;p&gt;This work systematically investigates prompt injection vulnerabilities in LLM-integrated applications, revealing critical security risks and providing recommendations for secure LLM deployment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study</title>
+      <link>http://localhost:1313/publication/jailbreaking-chatgpt/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jailbreaking-chatgpt/</guid>
+      <description>&lt;p&gt;This work presents the first comprehensive empirical study on jailbreaking ChatGPT through prompt engineering, identifying key vulnerability patterns and providing insights for improving LLM safety mechanisms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Threat of Offensive AI to Organizations</title>
+      <link>http://localhost:1313/publication/offensive-ai/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/offensive-ai/</guid>
+      <description>&lt;p&gt;This work examines the growing threat of offensive AI to organizations, providing a framework for understanding AI-powered attacks and developing effective defenses against this emerging threat landscape.&lt;/p&gt;
 </description>
     </item>
     

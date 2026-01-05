@@ -30,14 +30,6 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        I'm working toward a future where AI systems are both powerful and inherently secure—where artificial intelligence can defend itself and protect the digital world around us. By advancing AI for Security and building robust defenses against emerging threats, we're laying the foundation for an era where intelligent systems can autonomously safeguard our increasingly connected world. Let's collaborate to make this vision a reality!
-    design:
-      columns: '1'
   - block: collection
     id: papers
     content:
