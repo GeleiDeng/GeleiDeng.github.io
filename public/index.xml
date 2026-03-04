@@ -399,7 +399,7 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
 
 
 
-&lt;div id=&#34;chart-348297156&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-258479163&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -417,7 +417,7 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-348297156&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-258479163&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

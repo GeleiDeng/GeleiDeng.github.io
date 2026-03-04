@@ -18,8 +18,6 @@ role: ""
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Quantstamp
-    url: https://quantstamp.com/
   - name: NTU
     url: https://www.ntu.edu.sg/
   - name: OpenAI Red Team
@@ -63,7 +61,7 @@ education:
     date_end: '2024-10-31'
     summary: |
       Research on system security, AI security, and penetration testing automation.
-      Advised by Prof. Tianwei Zhang and Prof. Yang Liu at NTU Cyber Security Lab.
+      Advised by [Prof. Tianwei Zhang](https://personal.ntu.edu.sg/tianwei.zhang/) and [Prof. Yang Liu](https://personal.ntu.edu.sg/yangliu/) at NTU Cyber Security Lab.
     button:
       text: 'Read Thesis'
       url: 'https://dr.ntu.edu.sg/handle/10356/179958'
@@ -76,15 +74,6 @@ education:
       Singapore Ministry of Education Full Scholarship (SM2) Holder.
 
 work:
-  - position: Lead AI Engineer & Auditing Engineer
-    company_name: Quantstamp Inc.
-    company_url: 'https://quantstamp.com/'
-    company_logo: ''
-    date_start: '2022-10-01'
-    date_end: ''
-    summary: |
-      - Conduct comprehensive security audits for blockchain projects (DeFi, wallets, DEXs, NFTs)
-      - Lead R&D on leveraging LLMs for automated smart contract auditing and fuzzing
   - position: Research Assistant Professorship
     company_name: Nanyang Technological University
     company_url: 'https://www.ntu.edu.sg/'
@@ -103,7 +92,16 @@ work:
     date_end: ''
     summary: |
       - Participate in OpenAI-led red teaming to assess risks and safety profiles
-      - Contributed to evaluation of GPT-4o, DALL-E 3, and Operator
+      - Contributed to evaluation of [GPT-4o](https://openai.com/index/gpt-4o-system-card/), DALL-E 3, and [Operator](https://openai.com/index/operator-system-card/)
+  - position: Lead AI Engineer & Auditing Engineer
+    company_name: Quantstamp Inc.
+    company_url: 'https://quantstamp.com/'
+    company_logo: ''
+    date_start: '2022-10-01'
+    date_end: ''
+    summary: |
+      - Conduct comprehensive security audits for blockchain projects (DeFi, wallets, DEXs, NFTs)
+      - Lead R&D on leveraging LLMs for automated smart contract auditing and fuzzing
   - position: Research Engineer & Penetration Tester
     company_name: Institute for Infocomm Research (I2R, A*STAR)
     company_url: 'https://www.a-star.edu.sg/i2r'
@@ -112,7 +110,7 @@ work:
     date_end: '2020-07-31'
     summary: |
       - Performed penetration testing and research for Singapore government agencies
-
+  
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -197,4 +195,4 @@ awards:
 
 ## About Me
 
-I am an AI researcher at Quantstamp. I received my PhD from Nanyang Technological University, advised by Prof. Tianwei Zhang and Prof. Yang Liu. My research focuses on AI safety and AI security. I am particularly interested in leveraging AI and automated systems to attack AI and cyber systems autonomously, enabling scalable and intelligent security testing.
+My research focuses on AI safety and AI security. I am particularly interested in leveraging AI and automated systems to attack AI and cyber systems autonomously, enabling scalable and intelligent security testing. I received my PhD from Nanyang Technological University, advised by [Prof. Tianwei Zhang](https://personal.ntu.edu.sg/tianwei.zhang/) and [Prof. Yang Liu](https://personal.ntu.edu.sg/yangliu/). 
