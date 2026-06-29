@@ -2,39 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI Safety | Gelei Deng</title>
-    <link>http://localhost:1313/tags/ai-safety/</link>
-      <atom:link href="http://localhost:1313/tags/ai-safety/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/ai-safety/</link>
+      <atom:link href="https://geleideng.github.io/tags/ai-safety/index.xml" rel="self" type="application/rss+xml" />
     <description>AI Safety</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>AI Safety</title>
-      <link>http://localhost:1313/tags/ai-safety/</link>
+      <link>https://geleideng.github.io/tags/ai-safety/</link>
     </image>
     
     <item>
+      <title>RSafe: Incentivizing Proactive Reasoning to Build Robust and Adaptive LLM Safeguards</title>
+      <link>https://geleideng.github.io/publication/rsafe/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/rsafe/</guid>
+      <description>&lt;p&gt;RSafe targets the brittleness of conventional guard models by making safety decisions through explicit reasoning over a user-specified policy, then reinforcing those reasoning traces to improve robustness on adversarial and out-of-distribution safety violations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safe &#43; Safe = Unsafe? Exploring How Safe Images Can Be Exploited to Jailbreak Large Vision-Language Models</title>
+      <link>https://geleideng.github.io/publication/safe-safe-unsafe/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/safe-safe-unsafe/</guid>
+      <description>&lt;p&gt;This paper identifies a multimodal safety failure mode where safe visual inputs can snowball into unsafe model behavior when combined with additional safe images and prompts. Safety Snowball Agent operationalizes this observation as a tool-using jailbreak framework for evaluating LVLM guardrails.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>When Audio and Text Disagree: Revealing Text Bias in Large Audio-Language Models</title>
-      <link>http://localhost:1313/publication/audio-text-disagree/</link>
+      <link>https://geleideng.github.io/publication/audio-text-disagree/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/audio-text-disagree/</guid>
+      <guid>https://geleideng.github.io/publication/audio-text-disagree/</guid>
       <description>&lt;p&gt;This work investigates the behavior of Large Audio-Language Models when audio and text inputs provide conflicting information, revealing a systematic text bias that has important implications for model reliability and safety.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>GenderCARE: A Comprehensive Framework for Assessing and Reducing Gender Bias in Large Language Models</title>
+      <link>https://geleideng.github.io/publication/gendercare/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/gendercare/</guid>
+      <description>&lt;p&gt;GenderCARE contributes practical criteria, benchmarks, and reduction techniques for measuring and mitigating gender bias in LLMs while preserving general task performance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Glitch Tokens in Large Language Models: Categorization Taxonomy and Effective Detection</title>
-      <link>http://localhost:1313/publication/glitch-tokens/</link>
+      <link>https://geleideng.github.io/publication/glitch-tokens/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/glitch-tokens/</guid>
+      <guid>https://geleideng.github.io/publication/glitch-tokens/</guid>
       <description>&lt;p&gt;This work provides a systematic study of glitch tokens in Large Language Models, establishing a categorization taxonomy and developing effective detection methods to improve the reliability and security of LLM systems.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots</title>
-      <link>http://localhost:1313/publication/masterkey/</link>
+      <link>https://geleideng.github.io/publication/masterkey/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/masterkey/</guid>
+      <guid>https://geleideng.github.io/publication/masterkey/</guid>
       <description>&lt;p&gt;This work presents MASTERKEY, a systematic approach to understanding and exploiting vulnerabilities in Large Language Model chatbots. The framework introduces novel methodologies for automated jailbreak attack generation and provides comprehensive analysis of existing defense mechanisms.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Contributions:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -49,45 +76,45 @@
     
     <item>
       <title>A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models</title>
-      <link>http://localhost:1313/publication/jailbreak-comprehensive/</link>
+      <link>https://geleideng.github.io/publication/jailbreak-comprehensive/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreak-comprehensive/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreak-comprehensive/</guid>
       <description>&lt;p&gt;This work provides a comprehensive study of jailbreak attacks and defenses for Large Language Models, establishing benchmarks and providing insights for the development of more robust LLM security mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Digger: Detecting Copyright Content Mis-usage in Large Language Model Training</title>
-      <link>http://localhost:1313/publication/digger/</link>
+      <link>https://geleideng.github.io/publication/digger/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/digger/</guid>
+      <guid>https://geleideng.github.io/publication/digger/</guid>
       <description>&lt;p&gt;Digger introduces methods for detecting whether copyrighted content has been used to train Large Language Models, providing tools for addressing legal and ethical concerns in AI development.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Prompt Injection Attack against LLM-integrated Applications</title>
-      <link>http://localhost:1313/publication/prompt-injection/</link>
+      <link>https://geleideng.github.io/publication/prompt-injection/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/prompt-injection/</guid>
+      <guid>https://geleideng.github.io/publication/prompt-injection/</guid>
       <description>&lt;p&gt;This work systematically investigates prompt injection vulnerabilities in LLM-integrated applications, revealing critical security risks and providing recommendations for secure LLM deployment.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study</title>
-      <link>http://localhost:1313/publication/jailbreaking-chatgpt/</link>
+      <link>https://geleideng.github.io/publication/jailbreaking-chatgpt/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreaking-chatgpt/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreaking-chatgpt/</guid>
       <description>&lt;p&gt;This work presents the first comprehensive empirical study on jailbreaking ChatGPT through prompt engineering, identifying key vulnerability patterns and providing insights for improving LLM safety mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Threat of Offensive AI to Organizations</title>
-      <link>http://localhost:1313/publication/offensive-ai/</link>
+      <link>https://geleideng.github.io/publication/offensive-ai/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/offensive-ai/</guid>
+      <guid>https://geleideng.github.io/publication/offensive-ai/</guid>
       <description>&lt;p&gt;This work examines the growing threat of offensive AI to organizations, providing a framework for understanding AI-powered attacks and developing effective defenses against this emerging threat landscape.&lt;/p&gt;
 </description>
     </item>

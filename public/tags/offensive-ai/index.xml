@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Offensive AI | Gelei Deng</title>
-    <link>http://localhost:1313/tags/offensive-ai/</link>
-      <atom:link href="http://localhost:1313/tags/offensive-ai/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/offensive-ai/</link>
+      <atom:link href="https://geleideng.github.io/tags/offensive-ai/index.xml" rel="self" type="application/rss+xml" />
     <description>Offensive AI</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Offensive AI</title>
-      <link>http://localhost:1313/tags/offensive-ai/</link>
+      <link>https://geleideng.github.io/tags/offensive-ai/</link>
     </image>
     
     <item>
       <title>The Threat of Offensive AI to Organizations</title>
-      <link>http://localhost:1313/publication/offensive-ai/</link>
+      <link>https://geleideng.github.io/publication/offensive-ai/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/offensive-ai/</guid>
+      <guid>https://geleideng.github.io/publication/offensive-ai/</guid>
       <description>&lt;p&gt;This work examines the growing threat of offensive AI to organizations, providing a framework for understanding AI-powered attacks and developing effective defenses against this emerging threat landscape.&lt;/p&gt;
 </description>
     </item>

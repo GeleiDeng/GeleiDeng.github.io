@@ -2,34 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source | Gelei Deng</title>
-    <link>http://localhost:1313/tags/open-source/</link>
-      <atom:link href="http://localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/open-source/</link>
+      <atom:link href="https://geleideng.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <description>Open Source</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Open Source</title>
-      <link>http://localhost:1313/tags/open-source/</link>
+      <link>https://geleideng.github.io/tags/open-source/</link>
     </image>
     
     <item>
+      <title>Safety Snowball Agent</title>
+      <link>https://geleideng.github.io/project/safety-snowball-agent/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/project/safety-snowball-agent/</guid>
+      <description>&lt;p&gt;Safety Snowball Agent is an agent-based framework for evaluating how safe visual inputs can combine into unsafe behavior in large vision-language models.&lt;/p&gt;
+&lt;p&gt;The framework accompanies the NeurIPS 2025 paper &amp;ldquo;Safe + Safe = Unsafe?&amp;rdquo; and probes a multimodal jailbreak mechanism that differs from traditional adversarial-image attacks.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MASTERKEY</title>
+      <link>https://geleideng.github.io/project/masterkey/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/project/masterkey/</guid>
+      <description>&lt;p&gt;MASTERKEY is a research framework for automated jailbreak attack generation and defense evaluation for LLM chatbots.&lt;/p&gt;
+&lt;p&gt;The framework supports systematic analysis of jailbreak strategies across commercial chatbot systems and was published at NDSS 2024.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>PentestGPT</title>
-      <link>http://localhost:1313/project/pentestgpt/</link>
+      <link>https://geleideng.github.io/project/pentestgpt/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pentestgpt/</guid>
-      <description>&lt;p&gt;An LLM-empowered Automatic Penetration Testing Tool with 8k+ GitHub stars.&lt;/p&gt;
+      <guid>https://geleideng.github.io/project/pentestgpt/</guid>
+      <description>&lt;p&gt;An LLM-empowered automatic penetration testing framework with 14k+ GitHub stars and 2.4k+ forks.&lt;/p&gt;
 &lt;p&gt;PentestGPT is designed to automate penetration testing by leveraging the domain knowledge inherent in Large Language Models. It features a three-module architecture (Reasoning, Generation, and Parsing) that emulates human penetration testing workflows.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Automated penetration testing guidance&lt;/li&gt;
-&lt;li&gt;Integration with multiple LLM backends&lt;/li&gt;
-&lt;li&gt;Real-world evaluation on CTF challenges&lt;/li&gt;
-&lt;li&gt;228.6% improvement in task completion over baseline models&lt;/li&gt;
+&lt;li&gt;Multi-module agent design for reasoning, generation, and parsing&lt;/li&gt;
+&lt;li&gt;Integration with multiple LLM backends and real-world security workflows&lt;/li&gt;
+&lt;li&gt;Evaluation on CTF challenges and practical penetration testing targets&lt;/li&gt;
+&lt;li&gt;228.6% task completion improvement over baseline GPT models&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Recognition:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Distinguished Artifact Award at USENIX Security 2024&lt;/li&gt;
-&lt;li&gt;Active collaboration with industry partners (Huawei, ByteDance, etc.)&lt;/li&gt;
+&lt;li&gt;Widely used open-source security research artifact with active community adoption&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     

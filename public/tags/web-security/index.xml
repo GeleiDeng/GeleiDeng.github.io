@@ -2,39 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Security | Gelei Deng</title>
-    <link>http://localhost:1313/tags/web-security/</link>
-      <atom:link href="http://localhost:1313/tags/web-security/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/web-security/</link>
+      <atom:link href="https://geleideng.github.io/tags/web-security/index.xml" rel="self" type="application/rss+xml" />
     <description>Web Security</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Web Security</title>
-      <link>http://localhost:1313/tags/web-security/</link>
+      <link>https://geleideng.github.io/tags/web-security/</link>
     </image>
     
     <item>
       <title>Oedipus: LLM-enchanced Reasoning CAPTCHA Solver</title>
-      <link>http://localhost:1313/publication/oedipus/</link>
+      <link>https://geleideng.github.io/publication/oedipus/</link>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/oedipus/</guid>
+      <guid>https://geleideng.github.io/publication/oedipus/</guid>
       <description>&lt;p&gt;Oedipus demonstrates the vulnerability of reasoning-based CAPTCHAs to LLM-powered attacks, highlighting the need for more robust human verification mechanisms in the age of advanced AI.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>NAUTILUS: Automated RESTful API Vulnerability Detection</title>
-      <link>http://localhost:1313/publication/nautilus/</link>
+      <title>IllusionCAPTCHA: A CAPTCHA based on Visual Illusion</title>
+      <link>https://geleideng.github.io/publication/illusioncaptcha/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/illusioncaptcha/</guid>
+      <description>&lt;p&gt;IllusionCAPTCHA responds to the weakening of traditional CAPTCHA schemes in the LLM era by designing verification challenges around perceptual illusions rather than text recognition or simple reasoning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NAUTILUS</title>
+      <link>https://geleideng.github.io/project/nautilus/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/nautilus/</guid>
+      <guid>https://geleideng.github.io/project/nautilus/</guid>
+      <description>&lt;p&gt;NAUTILUS is an automated RESTful API vulnerability detection framework published at USENIX Security 2023.&lt;/p&gt;
+&lt;p&gt;It combines API specification analysis with dynamic testing to uncover security flaws in modern web services.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>NAUTILUS: Automated RESTful API Vulnerability Detection</title>
+      <link>https://geleideng.github.io/publication/nautilus/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/nautilus/</guid>
       <description>&lt;p&gt;NAUTILUS introduces an automated approach to RESTful API vulnerability detection, addressing a critical gap in web security testing. The framework combines static specification analysis with intelligent dynamic fuzzing to discover security vulnerabilities in modern web APIs.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Morest: Model-based RESTful API Testing with Execution Feedback</title>
-      <link>http://localhost:1313/publication/morest/</link>
+      <link>https://geleideng.github.io/publication/morest/</link>
       <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/morest/</guid>
+      <guid>https://geleideng.github.io/publication/morest/</guid>
       <description>&lt;p&gt;Morest introduces a novel approach to RESTful API testing that combines model-based testing with execution feedback, enabling more effective test generation and vulnerability discovery.&lt;/p&gt;
 </description>
     </item>

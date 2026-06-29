@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Large Vision-Language Models | Gelei Deng</title>
+    <link>https://geleideng.github.io/tags/large-vision-language-models/</link>
+      <atom:link href="https://geleideng.github.io/tags/large-vision-language-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>Large Vision-Language Models</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <title>Large Vision-Language Models</title>
+      <link>https://geleideng.github.io/tags/large-vision-language-models/</link>
+    </image>
+    
+    <item>
+      <title>Safe &#43; Safe = Unsafe? Exploring How Safe Images Can Be Exploited to Jailbreak Large Vision-Language Models</title>
+      <link>https://geleideng.github.io/publication/safe-safe-unsafe/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/safe-safe-unsafe/</guid>
+      <description>&lt;p&gt;This paper identifies a multimodal safety failure mode where safe visual inputs can snowball into unsafe model behavior when combined with additional safe images and prompts. Safety Snowball Agent operationalizes this observation as a tool-using jailbreak framework for evaluating LVLM guardrails.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safety Snowball Agent</title>
+      <link>https://geleideng.github.io/project/safety-snowball-agent/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/project/safety-snowball-agent/</guid>
+      <description>&lt;p&gt;Safety Snowball Agent is an agent-based framework for evaluating how safe visual inputs can combine into unsafe behavior in large vision-language models.&lt;/p&gt;
+&lt;p&gt;The framework accompanies the NeurIPS 2025 paper &amp;ldquo;Safe + Safe = Unsafe?&amp;rdquo; and probes a multimodal jailbreak mechanism that differs from traditional adversarial-image attacks.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

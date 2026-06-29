@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RAG Security | Gelei Deng</title>
-    <link>http://localhost:1313/tags/rag-security/</link>
-      <atom:link href="http://localhost:1313/tags/rag-security/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/rag-security/</link>
+      <atom:link href="https://geleideng.github.io/tags/rag-security/index.xml" rel="self" type="application/rss+xml" />
     <description>RAG Security</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>RAG Security</title>
-      <link>http://localhost:1313/tags/rag-security/</link>
+      <link>https://geleideng.github.io/tags/rag-security/</link>
     </image>
     
     <item>
-      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
-      <link>http://localhost:1313/publication/pandora/</link>
+      <title>PANDORA</title>
+      <link>https://geleideng.github.io/project/pandora/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pandora/</guid>
+      <guid>https://geleideng.github.io/project/pandora/</guid>
+      <description>&lt;p&gt;PANDORA studies jailbreak attacks against retrieval-augmented generation systems through retrieval database poisoning.&lt;/p&gt;
+&lt;p&gt;The work received the Distinguished Paper Award at AISCC 2024 and highlights a practical attack surface in RAG-enhanced LLM deployments.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
+      <link>https://geleideng.github.io/publication/pandora/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/pandora/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Distinguished Paper Award&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;PANDORA introduces a novel attack vector against RAG-enhanced LLM systems. By strategically poisoning retrieval databases, attackers can effectively bypass safety mechanisms in models like GPT-4, highlighting critical security considerations for RAG deployments.&lt;/p&gt;
 </description>

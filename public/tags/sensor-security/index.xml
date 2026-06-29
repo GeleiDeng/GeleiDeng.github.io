@@ -2,30 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sensor Security | Gelei Deng</title>
-    <link>http://localhost:1313/tags/sensor-security/</link>
-      <atom:link href="http://localhost:1313/tags/sensor-security/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/sensor-security/</link>
+      <atom:link href="https://geleideng.github.io/tags/sensor-security/index.xml" rel="self" type="application/rss+xml" />
     <description>Sensor Security</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Sensor Security</title>
-      <link>http://localhost:1313/tags/sensor-security/</link>
+      <link>https://geleideng.github.io/tags/sensor-security/</link>
     </image>
     
     <item>
+      <title>Detecting Perception-Based Attacks using Visual Odometry: Inconsistency Modeling and Checking on Robotic States</title>
+      <link>https://geleideng.github.io/publication/visual-odometry-robotic-states/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/visual-odometry-robotic-states/</guid>
+      <description>&lt;p&gt;The paper continues my robotics-security work by connecting perception attack detection with state inconsistency modeling, using visual odometry as a practical signal for identifying compromised robotic perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>PhyScout: Detecting Sensor Spoofing Attacks via Spatio-temporal Consistency</title>
-      <link>http://localhost:1313/publication/physcout/</link>
+      <link>https://geleideng.github.io/publication/physcout/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/physcout/</guid>
+      <guid>https://geleideng.github.io/publication/physcout/</guid>
       <description>&lt;p&gt;PhyScout introduces a practical approach to detecting sensor spoofing attacks by analyzing the spatio-temporal consistency of sensor data, providing robust protection for autonomous systems against adversarial manipulation.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>SoK: Rethinking Sensor Spoofing Attacks against Robotic Vehicles from a Systematic View</title>
-      <link>http://localhost:1313/publication/sok-sensor-spoofing/</link>
+      <link>https://geleideng.github.io/publication/sok-sensor-spoofing/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/sok-sensor-spoofing/</guid>
+      <guid>https://geleideng.github.io/publication/sok-sensor-spoofing/</guid>
       <description>&lt;p&gt;This Systematization of Knowledge (SoK) paper provides a comprehensive overview of sensor spoofing attacks against robotic vehicles, establishing a taxonomy of attack methods and analyzing the effectiveness of various defense mechanisms.&lt;/p&gt;
 </description>
     </item>

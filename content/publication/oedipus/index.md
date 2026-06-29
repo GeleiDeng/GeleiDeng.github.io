@@ -31,7 +31,7 @@ tags:
 - CAPTCHA
 - Web Security
 
-featured: false
+featured: true
 
 links:
 - name: arXiv

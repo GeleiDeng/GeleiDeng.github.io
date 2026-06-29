@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IoT Security | Gelei Deng</title>
-    <link>http://localhost:1313/tags/iot-security/</link>
-      <atom:link href="http://localhost:1313/tags/iot-security/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/iot-security/</link>
+      <atom:link href="https://geleideng.github.io/tags/iot-security/index.xml" rel="self" type="application/rss+xml" />
     <description>IoT Security</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>IoT Security</title>
-      <link>http://localhost:1313/tags/iot-security/</link>
+      <link>https://geleideng.github.io/tags/iot-security/</link>
     </image>
     
     <item>
       <title>A Fog Computing Based Approach to DDoS Mitigation in IIoT Systems</title>
-      <link>http://localhost:1313/publication/fog-ddos/</link>
+      <link>https://geleideng.github.io/publication/fog-ddos/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fog-ddos/</guid>
+      <guid>https://geleideng.github.io/publication/fog-ddos/</guid>
       <description>&lt;p&gt;This work introduces a fog computing based framework for DDoS mitigation in Industrial IoT systems, providing distributed defense capabilities at the network edge.&lt;/p&gt;
 </description>
     </item>

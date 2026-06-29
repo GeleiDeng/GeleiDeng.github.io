@@ -2,55 +2,127 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI Security | Gelei Deng</title>
-    <link>http://localhost:1313/tags/ai-security/</link>
-      <atom:link href="http://localhost:1313/tags/ai-security/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/ai-security/</link>
+      <atom:link href="https://geleideng.github.io/tags/ai-security/index.xml" rel="self" type="application/rss+xml" />
     <description>AI Security</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>AI Security</title>
-      <link>http://localhost:1313/tags/ai-security/</link>
+      <link>https://geleideng.github.io/tags/ai-security/</link>
     </image>
     
     <item>
+      <title>Excalibur</title>
+      <link>https://geleideng.github.io/project/excalibur/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/project/excalibur/</guid>
+      <description>&lt;p&gt;Excalibur is a difficulty-aware LLM agent design for real-world penetration testing.&lt;/p&gt;
+&lt;p&gt;It couples typed tooling, retrieval-augmented security knowledge, task difficulty assessment, and evidence-guided attack tree search to reduce planning failures in multi-step penetration testing tasks.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What Makes a Good LLM Agent for Real-world Penetration Testing?</title>
+      <link>https://geleideng.github.io/publication/llm-agent-pentest/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/llm-agent-pentest/</guid>
+      <description>&lt;p&gt;This paper examines why LLM penetration testing systems succeed or fail in real-world settings, then proposes Excalibur to improve task selection and attack-chain planning through difficulty-aware reasoning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale</title>
+      <link>https://geleideng.github.io/publication/agent-skills-wild/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/agent-skills-wild/</guid>
+      <description>&lt;p&gt;This work studies agent skills as an emerging software supply-chain attack surface and provides empirical evidence for capability-based permissions and mandatory security vetting of skill ecosystems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RSafe: Incentivizing Proactive Reasoning to Build Robust and Adaptive LLM Safeguards</title>
+      <link>https://geleideng.github.io/publication/rsafe/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/rsafe/</guid>
+      <description>&lt;p&gt;RSafe targets the brittleness of conventional guard models by making safety decisions through explicit reasoning over a user-specified policy, then reinforcing those reasoning traces to improve robustness on adversarial and out-of-distribution safety violations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safe &#43; Safe = Unsafe? Exploring How Safe Images Can Be Exploited to Jailbreak Large Vision-Language Models</title>
+      <link>https://geleideng.github.io/publication/safe-safe-unsafe/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/safe-safe-unsafe/</guid>
+      <description>&lt;p&gt;This paper identifies a multimodal safety failure mode where safe visual inputs can snowball into unsafe model behavior when combined with additional safe images and prompts. Safety Snowball Agent operationalizes this observation as a tool-using jailbreak framework for evaluating LVLM guardrails.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safety Snowball Agent</title>
+      <link>https://geleideng.github.io/project/safety-snowball-agent/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/project/safety-snowball-agent/</guid>
+      <description>&lt;p&gt;Safety Snowball Agent is an agent-based framework for evaluating how safe visual inputs can combine into unsafe behavior in large vision-language models.&lt;/p&gt;
+&lt;p&gt;The framework accompanies the NeurIPS 2025 paper &amp;ldquo;Safe + Safe = Unsafe?&amp;rdquo; and probes a multimodal jailbreak mechanism that differs from traditional adversarial-image attacks.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Oedipus: LLM-enchanced Reasoning CAPTCHA Solver</title>
-      <link>http://localhost:1313/publication/oedipus/</link>
+      <link>https://geleideng.github.io/publication/oedipus/</link>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/oedipus/</guid>
+      <guid>https://geleideng.github.io/publication/oedipus/</guid>
       <description>&lt;p&gt;Oedipus demonstrates the vulnerability of reasoning-based CAPTCHAs to LLM-powered attacks, highlighting the need for more robust human verification mechanisms in the age of advanced AI.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>IllusionCAPTCHA: A CAPTCHA based on Visual Illusion</title>
+      <link>https://geleideng.github.io/publication/illusioncaptcha/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/illusioncaptcha/</guid>
+      <description>&lt;p&gt;IllusionCAPTCHA responds to the weakening of traditional CAPTCHA schemes in the LLM era by designing verification challenges around perceptual illusions rather than text recognition or simple reasoning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient Detection of Toxic Prompts in Large Language Models</title>
+      <link>https://geleideng.github.io/publication/toxic-prompts/</link>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/toxic-prompts/</guid>
+      <description>&lt;p&gt;ToxicDetector targets practical, low-latency screening of toxic and jailbreak-style prompts, making prompt safety checks more deployable in interactive LLM applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>PhyScout: Detecting Sensor Spoofing Attacks via Spatio-temporal Consistency</title>
-      <link>http://localhost:1313/publication/physcout/</link>
+      <link>https://geleideng.github.io/publication/physcout/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/physcout/</guid>
+      <guid>https://geleideng.github.io/publication/physcout/</guid>
       <description>&lt;p&gt;PhyScout introduces a practical approach to detecting sensor spoofing attacks by analyzing the spatio-temporal consistency of sensor data, providing robust protection for autonomous systems against adversarial manipulation.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>VisionGuard: Secure and Robust Visual Perception of Autonomous Vehicles in Practice</title>
-      <link>http://localhost:1313/publication/visionguard/</link>
+      <link>https://geleideng.github.io/publication/visionguard/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/visionguard/</guid>
+      <guid>https://geleideng.github.io/publication/visionguard/</guid>
       <description>&lt;p&gt;VisionGuard presents a practical approach to securing visual perception systems in autonomous vehicles, addressing critical vulnerabilities that could be exploited by adversaries in real-world scenarios.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing</title>
-      <link>http://localhost:1313/publication/pentestgpt/</link>
+      <link>https://geleideng.github.io/publication/pentestgpt/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pentestgpt/</guid>
+      <guid>https://geleideng.github.io/publication/pentestgpt/</guid>
       <description>&lt;p&gt;This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs&amp;rsquo; extensive domain knowledge and reasoning capabilities.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Three-Module Architecture&lt;/strong&gt;: Reasoning, Generation, and Parsing modules that work together to emulate human penetration testing workflows&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Real-World Evaluation&lt;/strong&gt;: Comprehensive benchmark using actual penetration testing targets and CTF challenges&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Significant Performance Gains&lt;/strong&gt;: 228.6% improvement in task completion rates compared to baseline GPT-3.5 model&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Over 6,500 GitHub stars demonstrating strong industry adoption&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: 14k+ GitHub stars and 2.4k+ forks demonstrating strong industry adoption&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Technical Innovation:&lt;/strong&gt;
 PentestGPT addresses critical challenges in LLM-based security testing, including context loss and task-specific reasoning. The framework systematically breaks down complex penetration testing scenarios into manageable sub-tasks, enabling more effective automated security assessments.&lt;/p&gt;
@@ -60,27 +132,36 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     
     <item>
       <title>Glitch Tokens in Large Language Models: Categorization Taxonomy and Effective Detection</title>
-      <link>http://localhost:1313/publication/glitch-tokens/</link>
+      <link>https://geleideng.github.io/publication/glitch-tokens/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/glitch-tokens/</guid>
+      <guid>https://geleideng.github.io/publication/glitch-tokens/</guid>
       <description>&lt;p&gt;This work provides a systematic study of glitch tokens in Large Language Models, establishing a categorization taxonomy and developing effective detection methods to improve the reliability and security of LLM systems.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Hitchhiker&#39;s Guide to Jailbreaking ChatGPT via Prompt Engineering</title>
-      <link>http://localhost:1313/publication/hitchhiker-jailbreak/</link>
+      <link>https://geleideng.github.io/publication/hitchhiker-jailbreak/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hitchhiker-jailbreak/</guid>
+      <guid>https://geleideng.github.io/publication/hitchhiker-jailbreak/</guid>
       <description>&lt;p&gt;This workshop paper provides practical guidance on jailbreaking ChatGPT through prompt engineering, offering insights for both attack and defense research.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots</title>
-      <link>http://localhost:1313/publication/masterkey/</link>
+      <title>MASTERKEY</title>
+      <link>https://geleideng.github.io/project/masterkey/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/masterkey/</guid>
+      <guid>https://geleideng.github.io/project/masterkey/</guid>
+      <description>&lt;p&gt;MASTERKEY is a research framework for automated jailbreak attack generation and defense evaluation for LLM chatbots.&lt;/p&gt;
+&lt;p&gt;The framework supports systematic analysis of jailbreak strategies across commercial chatbot systems and was published at NDSS 2024.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots</title>
+      <link>https://geleideng.github.io/publication/masterkey/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/masterkey/</guid>
       <description>&lt;p&gt;This work presents MASTERKEY, a systematic approach to understanding and exploiting vulnerabilities in Large Language Model chatbots. The framework introduces novel methodologies for automated jailbreak attack generation and provides comprehensive analysis of existing defense mechanisms.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Contributions:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -95,18 +176,27 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     
     <item>
       <title>A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models</title>
-      <link>http://localhost:1313/publication/jailbreak-comprehensive/</link>
+      <link>https://geleideng.github.io/publication/jailbreak-comprehensive/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreak-comprehensive/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreak-comprehensive/</guid>
       <description>&lt;p&gt;This work provides a comprehensive study of jailbreak attacks and defenses for Large Language Models, establishing benchmarks and providing insights for the development of more robust LLM security mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
-      <link>http://localhost:1313/publication/pandora/</link>
+      <title>PANDORA</title>
+      <link>https://geleideng.github.io/project/pandora/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pandora/</guid>
+      <guid>https://geleideng.github.io/project/pandora/</guid>
+      <description>&lt;p&gt;PANDORA studies jailbreak attacks against retrieval-augmented generation systems through retrieval database poisoning.&lt;/p&gt;
+&lt;p&gt;The work received the Distinguished Paper Award at AISCC 2024 and highlights a practical attack surface in RAG-enhanced LLM deployments.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
+      <link>https://geleideng.github.io/publication/pandora/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/pandora/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Distinguished Paper Award&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;PANDORA introduces a novel attack vector against RAG-enhanced LLM systems. By strategically poisoning retrieval databases, attackers can effectively bypass safety mechanisms in models like GPT-4, highlighting critical security considerations for RAG deployments.&lt;/p&gt;
 </description>
@@ -114,27 +204,27 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     
     <item>
       <title>Prompt Injection Attack against LLM-integrated Applications</title>
-      <link>http://localhost:1313/publication/prompt-injection/</link>
+      <link>https://geleideng.github.io/publication/prompt-injection/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/prompt-injection/</guid>
+      <guid>https://geleideng.github.io/publication/prompt-injection/</guid>
       <description>&lt;p&gt;This work systematically investigates prompt injection vulnerabilities in LLM-integrated applications, revealing critical security risks and providing recommendations for secure LLM deployment.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study</title>
-      <link>http://localhost:1313/publication/jailbreaking-chatgpt/</link>
+      <link>https://geleideng.github.io/publication/jailbreaking-chatgpt/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreaking-chatgpt/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreaking-chatgpt/</guid>
       <description>&lt;p&gt;This work presents the first comprehensive empirical study on jailbreaking ChatGPT through prompt engineering, identifying key vulnerability patterns and providing insights for improving LLM safety mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Threat of Offensive AI to Organizations</title>
-      <link>http://localhost:1313/publication/offensive-ai/</link>
+      <link>https://geleideng.github.io/publication/offensive-ai/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/offensive-ai/</guid>
+      <guid>https://geleideng.github.io/publication/offensive-ai/</guid>
       <description>&lt;p&gt;This work examines the growing threat of offensive AI to organizations, providing a framework for understanding AI-powered attacks and developing effective defenses against this emerging threat landscape.&lt;/p&gt;
 </description>
     </item>

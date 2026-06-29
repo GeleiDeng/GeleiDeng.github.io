@@ -2,75 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robotics Security | Gelei Deng</title>
-    <link>http://localhost:1313/tags/robotics-security/</link>
-      <atom:link href="http://localhost:1313/tags/robotics-security/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/robotics-security/</link>
+      <atom:link href="https://geleideng.github.io/tags/robotics-security/index.xml" rel="self" type="application/rss+xml" />
     <description>Robotics Security</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Robotics Security</title>
-      <link>http://localhost:1313/tags/robotics-security/</link>
+      <link>https://geleideng.github.io/tags/robotics-security/</link>
     </image>
     
     <item>
       <title>Controllable Spoofing Attacks on Visual SLAM in Robotic Vehicles</title>
-      <link>http://localhost:1313/publication/visual-slam-spoofing/</link>
+      <link>https://geleideng.github.io/publication/visual-slam-spoofing/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/visual-slam-spoofing/</guid>
+      <guid>https://geleideng.github.io/publication/visual-slam-spoofing/</guid>
       <description>&lt;p&gt;This work investigates security vulnerabilities in Visual SLAM systems used by robotic vehicles, presenting controllable spoofing attacks that can precisely manipulate vehicle navigation and localization.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>Detecting Perception-Based Attacks using Visual Odometry: Inconsistency Modeling and Checking on Robotic States</title>
+      <link>https://geleideng.github.io/publication/visual-odometry-robotic-states/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/visual-odometry-robotic-states/</guid>
+      <description>&lt;p&gt;The paper continues my robotics-security work by connecting perception attack detection with state inconsistency modeling, using visual odometry as a practical signal for identifying compromised robotic perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>PhyScout: Detecting Sensor Spoofing Attacks via Spatio-temporal Consistency</title>
-      <link>http://localhost:1313/publication/physcout/</link>
+      <link>https://geleideng.github.io/publication/physcout/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/physcout/</guid>
+      <guid>https://geleideng.github.io/publication/physcout/</guid>
       <description>&lt;p&gt;PhyScout introduces a practical approach to detecting sensor spoofing attacks by analyzing the spatio-temporal consistency of sensor data, providing robust protection for autonomous systems against adversarial manipulation.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>VisionGuard: Secure and Robust Visual Perception of Autonomous Vehicles in Practice</title>
-      <link>http://localhost:1313/publication/visionguard/</link>
+      <link>https://geleideng.github.io/publication/visionguard/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/visionguard/</guid>
+      <guid>https://geleideng.github.io/publication/visionguard/</guid>
       <description>&lt;p&gt;VisionGuard presents a practical approach to securing visual perception systems in autonomous vehicles, addressing critical vulnerabilities that could be exploited by adversaries in real-world scenarios.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>SoK: Rethinking Sensor Spoofing Attacks against Robotic Vehicles from a Systematic View</title>
-      <link>http://localhost:1313/publication/sok-sensor-spoofing/</link>
+      <link>https://geleideng.github.io/publication/sok-sensor-spoofing/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/sok-sensor-spoofing/</guid>
+      <guid>https://geleideng.github.io/publication/sok-sensor-spoofing/</guid>
       <description>&lt;p&gt;This Systematization of Knowledge (SoK) paper provides a comprehensive overview of sensor spoofing attacks against robotic vehicles, establishing a taxonomy of attack methods and analyzing the effectiveness of various defense mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>On the (In)Security of Secure ROS2</title>
-      <link>http://localhost:1313/publication/ros2-security/</link>
+      <link>https://geleideng.github.io/publication/ros2-security/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ros2-security/</guid>
+      <guid>https://geleideng.github.io/publication/ros2-security/</guid>
       <description>&lt;p&gt;This work presents the first comprehensive security analysis of ROS2&amp;rsquo;s security mechanisms. We discovered multiple vulnerabilities in the Secure ROS2 implementation that can be exploited to compromise robotic systems, highlighting critical security issues in modern robotics middleware.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>An Investigation of Byzantine Threats in Multi-Robot Systems</title>
-      <link>http://localhost:1313/publication/raid21-byzantine/</link>
+      <link>https://geleideng.github.io/publication/raid21-byzantine/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/raid21-byzantine/</guid>
+      <guid>https://geleideng.github.io/publication/raid21-byzantine/</guid>
       <description>&lt;p&gt;This work investigates Byzantine threats in multi-robot systems, presenting attack methodologies and detection mechanisms for securing collaborative robotics applications.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Novel Denial-of-Service Attacks Against Cloud-based Multi-Robot Systems</title>
-      <link>http://localhost:1313/publication/dos-multi-robot/</link>
+      <link>https://geleideng.github.io/publication/dos-multi-robot/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/dos-multi-robot/</guid>
+      <guid>https://geleideng.github.io/publication/dos-multi-robot/</guid>
       <description>&lt;p&gt;This work investigates security vulnerabilities in cloud-based multi-robot systems, presenting novel denial-of-service attacks that can disrupt robot coordination and mission execution in distributed robotics applications.&lt;/p&gt;
 </description>
     </item>

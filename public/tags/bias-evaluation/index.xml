@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bias Evaluation | Gelei Deng</title>
+    <link>https://geleideng.github.io/tags/bias-evaluation/</link>
+      <atom:link href="https://geleideng.github.io/tags/bias-evaluation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bias Evaluation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <title>Bias Evaluation</title>
+      <link>https://geleideng.github.io/tags/bias-evaluation/</link>
+    </image>
+    
+    <item>
+      <title>GenderCARE: A Comprehensive Framework for Assessing and Reducing Gender Bias in Large Language Models</title>
+      <link>https://geleideng.github.io/publication/gendercare/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/gendercare/</guid>
+      <description>&lt;p&gt;GenderCARE contributes practical criteria, benchmarks, and reduction techniques for measuring and mitigating gender bias in LLMs while preserving general task performance.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

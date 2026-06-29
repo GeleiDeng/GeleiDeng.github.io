@@ -46,7 +46,7 @@ url_pdf: 'https://www.usenix.org/system/files/sec23fall-prepub-592-deng-gelei.pd
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://sites.google.com/view/nautilus-testing'
 url_slides: ''
 url_source: ''
 url_video: ''
@@ -57,7 +57,8 @@ image:
   focal_point: ""
   preview_only: false
 
-projects: []
+projects:
+- nautilus
 slides: ""
 ---
 

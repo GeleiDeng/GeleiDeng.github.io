@@ -2,30 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software Engineering | Gelei Deng</title>
-    <link>http://localhost:1313/tags/software-engineering/</link>
-      <atom:link href="http://localhost:1313/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/software-engineering/</link>
+      <atom:link href="https://geleideng.github.io/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
     <description>Software Engineering</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Software Engineering</title>
-      <link>http://localhost:1313/tags/software-engineering/</link>
+      <link>https://geleideng.github.io/tags/software-engineering/</link>
     </image>
     
     <item>
       <title>Source Code Summarization in the Era of Large Language Models</title>
-      <link>http://localhost:1313/publication/code-summarization-llm/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/code-summarization-llm/</guid>
+      <link>https://geleideng.github.io/publication/code-summarization-llm/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/code-summarization-llm/</guid>
       <description>&lt;p&gt;This work examines how Large Language Models are transforming source code summarization, providing insights into their capabilities and limitations for automated software documentation.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>Efficient Detection of Toxic Prompts in Large Language Models</title>
+      <link>https://geleideng.github.io/publication/toxic-prompts/</link>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/toxic-prompts/</guid>
+      <description>&lt;p&gt;ToxicDetector targets practical, low-latency screening of toxic and jailbreak-style prompts, making prompt safety checks more deployable in interactive LLM applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Automatic Code Summarization via ChatGPT: How Far Are We?</title>
-      <link>http://localhost:1313/publication/code-summarization-chatgpt/</link>
+      <link>https://geleideng.github.io/publication/code-summarization-chatgpt/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/code-summarization-chatgpt/</guid>
+      <guid>https://geleideng.github.io/publication/code-summarization-chatgpt/</guid>
       <description>&lt;p&gt;This work provides an empirical evaluation of ChatGPT for automatic code summarization, assessing its capabilities and comparing against existing approaches.&lt;/p&gt;
 </description>
     </item>

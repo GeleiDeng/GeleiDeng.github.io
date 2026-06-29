@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gelei Deng</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/</link>
+      <atom:link href="https://geleideng.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Gelei Deng</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 24 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Gelei Deng</title>
-      <link>http://localhost:1313/</link>
+      <link>https://geleideng.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>http://localhost:1313/event/example/</link>
+      <link>https://geleideng.github.io/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/event/example/</guid>
+      <guid>https://geleideng.github.io/event/example/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -34,62 +34,161 @@
     </item>
     
     <item>
+      <title>Excalibur</title>
+      <link>https://geleideng.github.io/project/excalibur/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/project/excalibur/</guid>
+      <description>&lt;p&gt;Excalibur is a difficulty-aware LLM agent design for real-world penetration testing.&lt;/p&gt;
+&lt;p&gt;It couples typed tooling, retrieval-augmented security knowledge, task difficulty assessment, and evidence-guided attack tree search to reduce planning failures in multi-step penetration testing tasks.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What Makes a Good LLM Agent for Real-world Penetration Testing?</title>
+      <link>https://geleideng.github.io/publication/llm-agent-pentest/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/llm-agent-pentest/</guid>
+      <description>&lt;p&gt;This paper examines why LLM penetration testing systems succeed or fail in real-world settings, then proposes Excalibur to improve task selection and attack-chain planning through difficulty-aware reasoning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale</title>
+      <link>https://geleideng.github.io/publication/agent-skills-wild/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/agent-skills-wild/</guid>
+      <description>&lt;p&gt;This work studies agent skills as an emerging software supply-chain attack surface and provides empirical evidence for capability-based permissions and mandatory security vetting of skill ecosystems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RSafe: Incentivizing Proactive Reasoning to Build Robust and Adaptive LLM Safeguards</title>
+      <link>https://geleideng.github.io/publication/rsafe/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/rsafe/</guid>
+      <description>&lt;p&gt;RSafe targets the brittleness of conventional guard models by making safety decisions through explicit reasoning over a user-specified policy, then reinforcing those reasoning traces to improve robustness on adversarial and out-of-distribution safety violations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safe &#43; Safe = Unsafe? Exploring How Safe Images Can Be Exploited to Jailbreak Large Vision-Language Models</title>
+      <link>https://geleideng.github.io/publication/safe-safe-unsafe/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/safe-safe-unsafe/</guid>
+      <description>&lt;p&gt;This paper identifies a multimodal safety failure mode where safe visual inputs can snowball into unsafe model behavior when combined with additional safe images and prompts. Safety Snowball Agent operationalizes this observation as a tool-using jailbreak framework for evaluating LVLM guardrails.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safety Snowball Agent</title>
+      <link>https://geleideng.github.io/project/safety-snowball-agent/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/project/safety-snowball-agent/</guid>
+      <description>&lt;p&gt;Safety Snowball Agent is an agent-based framework for evaluating how safe visual inputs can combine into unsafe behavior in large vision-language models.&lt;/p&gt;
+&lt;p&gt;The framework accompanies the NeurIPS 2025 paper &amp;ldquo;Safe + Safe = Unsafe?&amp;rdquo; and probes a multimodal jailbreak mechanism that differs from traditional adversarial-image attacks.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Controllable Spoofing Attacks on Visual SLAM in Robotic Vehicles</title>
-      <link>http://localhost:1313/publication/visual-slam-spoofing/</link>
+      <link>https://geleideng.github.io/publication/visual-slam-spoofing/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/visual-slam-spoofing/</guid>
+      <guid>https://geleideng.github.io/publication/visual-slam-spoofing/</guid>
       <description>&lt;p&gt;This work investigates security vulnerabilities in Visual SLAM systems used by robotic vehicles, presenting controllable spoofing attacks that can precisely manipulate vehicle navigation and localization.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>When Audio and Text Disagree: Revealing Text Bias in Large Audio-Language Models</title>
-      <link>http://localhost:1313/publication/audio-text-disagree/</link>
+      <link>https://geleideng.github.io/publication/audio-text-disagree/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/audio-text-disagree/</guid>
+      <guid>https://geleideng.github.io/publication/audio-text-disagree/</guid>
       <description>&lt;p&gt;This work investigates the behavior of Large Audio-Language Models when audio and text inputs provide conflicting information, revealing a systematic text bias that has important implications for model reliability and safety.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Oedipus: LLM-enchanced Reasoning CAPTCHA Solver</title>
-      <link>http://localhost:1313/publication/oedipus/</link>
+      <link>https://geleideng.github.io/publication/oedipus/</link>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/oedipus/</guid>
+      <guid>https://geleideng.github.io/publication/oedipus/</guid>
       <description>&lt;p&gt;Oedipus demonstrates the vulnerability of reasoning-based CAPTCHAs to LLM-powered attacks, highlighting the need for more robust human verification mechanisms in the age of advanced AI.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>PhyScout: Detecting Sensor Spoofing Attacks via Spatio-temporal Consistency</title>
-      <link>http://localhost:1313/publication/physcout/</link>
+      <title>Detecting Perception-Based Attacks using Visual Odometry: Inconsistency Modeling and Checking on Robotic States</title>
+      <link>https://geleideng.github.io/publication/visual-odometry-robotic-states/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/visual-odometry-robotic-states/</guid>
+      <description>&lt;p&gt;The paper continues my robotics-security work by connecting perception attack detection with state inconsistency modeling, using visual odometry as a practical signal for identifying compromised robotic perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IllusionCAPTCHA: A CAPTCHA based on Visual Illusion</title>
+      <link>https://geleideng.github.io/publication/illusioncaptcha/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/illusioncaptcha/</guid>
+      <description>&lt;p&gt;IllusionCAPTCHA responds to the weakening of traditional CAPTCHA schemes in the LLM era by designing verification challenges around perceptual illusions rather than text recognition or simple reasoning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Source Code Summarization in the Era of Large Language Models</title>
+      <link>https://geleideng.github.io/publication/code-summarization-llm/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/code-summarization-llm/</guid>
+      <description>&lt;p&gt;This work examines how Large Language Models are transforming source code summarization, providing insights into their capabilities and limitations for automated software documentation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient Detection of Toxic Prompts in Large Language Models</title>
+      <link>https://geleideng.github.io/publication/toxic-prompts/</link>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/toxic-prompts/</guid>
+      <description>&lt;p&gt;ToxicDetector targets practical, low-latency screening of toxic and jailbreak-style prompts, making prompt safety checks more deployable in interactive LLM applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GenderCARE: A Comprehensive Framework for Assessing and Reducing Gender Bias in Large Language Models</title>
+      <link>https://geleideng.github.io/publication/gendercare/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/physcout/</guid>
+      <guid>https://geleideng.github.io/publication/gendercare/</guid>
+      <description>&lt;p&gt;GenderCARE contributes practical criteria, benchmarks, and reduction techniques for measuring and mitigating gender bias in LLMs while preserving general task performance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PhyScout: Detecting Sensor Spoofing Attacks via Spatio-temporal Consistency</title>
+      <link>https://geleideng.github.io/publication/physcout/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/physcout/</guid>
       <description>&lt;p&gt;PhyScout introduces a practical approach to detecting sensor spoofing attacks by analyzing the spatio-temporal consistency of sensor data, providing robust protection for autonomous systems against adversarial manipulation.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>VisionGuard: Secure and Robust Visual Perception of Autonomous Vehicles in Practice</title>
-      <link>http://localhost:1313/publication/visionguard/</link>
+      <link>https://geleideng.github.io/publication/visionguard/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/visionguard/</guid>
+      <guid>https://geleideng.github.io/publication/visionguard/</guid>
       <description>&lt;p&gt;VisionGuard presents a practical approach to securing visual perception systems in autonomous vehicles, addressing critical vulnerabilities that could be exploited by adversaries in real-world scenarios.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing</title>
-      <link>http://localhost:1313/publication/pentestgpt/</link>
+      <link>https://geleideng.github.io/publication/pentestgpt/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pentestgpt/</guid>
+      <guid>https://geleideng.github.io/publication/pentestgpt/</guid>
       <description>&lt;p&gt;This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs&amp;rsquo; extensive domain knowledge and reasoning capabilities.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Three-Module Architecture&lt;/strong&gt;: Reasoning, Generation, and Parsing modules that work together to emulate human penetration testing workflows&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Real-World Evaluation&lt;/strong&gt;: Comprehensive benchmark using actual penetration testing targets and CTF challenges&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Significant Performance Gains&lt;/strong&gt;: 228.6% improvement in task completion rates compared to baseline GPT-3.5 model&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Over 6,500 GitHub stars demonstrating strong industry adoption&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: 14k+ GitHub stars and 2.4k+ forks demonstrating strong industry adoption&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Technical Innovation:&lt;/strong&gt;
 PentestGPT addresses critical challenges in LLM-based security testing, including context loss and task-specific reasoning. The framework systematically breaks down complex penetration testing scenarios into manageable sub-tasks, enabling more effective automated security assessments.&lt;/p&gt;
@@ -99,53 +198,53 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     
     <item>
       <title>Glitch Tokens in Large Language Models: Categorization Taxonomy and Effective Detection</title>
-      <link>http://localhost:1313/publication/glitch-tokens/</link>
+      <link>https://geleideng.github.io/publication/glitch-tokens/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/glitch-tokens/</guid>
+      <guid>https://geleideng.github.io/publication/glitch-tokens/</guid>
       <description>&lt;p&gt;This work provides a systematic study of glitch tokens in Large Language Models, establishing a categorization taxonomy and developing effective detection methods to improve the reliability and security of LLM systems.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Source Code Summarization in the Era of Large Language Models</title>
-      <link>http://localhost:1313/publication/code-summarization-llm/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/code-summarization-llm/</guid>
-      <description>&lt;p&gt;This work examines how Large Language Models are transforming source code summarization, providing insights into their capabilities and limitations for automated software documentation.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://geleideng.github.io/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://geleideng.github.io/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Hitchhiker&#39;s Guide to Jailbreaking ChatGPT via Prompt Engineering</title>
-      <link>http://localhost:1313/publication/hitchhiker-jailbreak/</link>
+      <link>https://geleideng.github.io/publication/hitchhiker-jailbreak/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hitchhiker-jailbreak/</guid>
+      <guid>https://geleideng.github.io/publication/hitchhiker-jailbreak/</guid>
       <description>&lt;p&gt;This workshop paper provides practical guidance on jailbreaking ChatGPT through prompt engineering, offering insights for both attack and defense research.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>PonziGuard: Detecting Ponzi Schemes on Ethereum with Contract Runtime Behavior Graph (CRBG)</title>
-      <link>http://localhost:1313/publication/ponziguard/</link>
+      <link>https://geleideng.github.io/publication/ponziguard/</link>
       <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ponziguard/</guid>
+      <guid>https://geleideng.github.io/publication/ponziguard/</guid>
       <description>&lt;p&gt;PonziGuard introduces Contract Runtime Behavior Graphs for detecting Ponzi scheme smart contracts on Ethereum, providing more accurate detection than existing approaches.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots</title>
-      <link>http://localhost:1313/publication/masterkey/</link>
+      <title>MASTERKEY</title>
+      <link>https://geleideng.github.io/project/masterkey/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/masterkey/</guid>
+      <guid>https://geleideng.github.io/project/masterkey/</guid>
+      <description>&lt;p&gt;MASTERKEY is a research framework for automated jailbreak attack generation and defense evaluation for LLM chatbots.&lt;/p&gt;
+&lt;p&gt;The framework supports systematic analysis of jailbreak strategies across commercial chatbot systems and was published at NDSS 2024.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots</title>
+      <link>https://geleideng.github.io/publication/masterkey/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/masterkey/</guid>
       <description>&lt;p&gt;This work presents MASTERKEY, a systematic approach to understanding and exploiting vulnerabilities in Large Language Model chatbots. The framework introduces novel methodologies for automated jailbreak attack generation and provides comprehensive analysis of existing defense mechanisms.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Contributions:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -160,18 +259,27 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     
     <item>
       <title>A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models</title>
-      <link>http://localhost:1313/publication/jailbreak-comprehensive/</link>
+      <link>https://geleideng.github.io/publication/jailbreak-comprehensive/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreak-comprehensive/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreak-comprehensive/</guid>
       <description>&lt;p&gt;This work provides a comprehensive study of jailbreak attacks and defenses for Large Language Models, establishing benchmarks and providing insights for the development of more robust LLM security mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
-      <link>http://localhost:1313/publication/pandora/</link>
+      <title>PANDORA</title>
+      <link>https://geleideng.github.io/project/pandora/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pandora/</guid>
+      <guid>https://geleideng.github.io/project/pandora/</guid>
+      <description>&lt;p&gt;PANDORA studies jailbreak attacks against retrieval-augmented generation systems through retrieval database poisoning.&lt;/p&gt;
+&lt;p&gt;The work received the Distinguished Paper Award at AISCC 2024 and highlights a practical attack surface in RAG-enhanced LLM deployments.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
+      <link>https://geleideng.github.io/publication/pandora/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/pandora/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Distinguished Paper Award&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;PANDORA introduces a novel attack vector against RAG-enhanced LLM systems. By strategically poisoning retrieval databases, attackers can effectively bypass safety mechanisms in models like GPT-4, highlighting critical security considerations for RAG deployments.&lt;/p&gt;
 </description>
@@ -179,18 +287,18 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     
     <item>
       <title>Digger: Detecting Copyright Content Mis-usage in Large Language Model Training</title>
-      <link>http://localhost:1313/publication/digger/</link>
+      <link>https://geleideng.github.io/publication/digger/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/digger/</guid>
+      <guid>https://geleideng.github.io/publication/digger/</guid>
       <description>&lt;p&gt;Digger introduces methods for detecting whether copyrighted content has been used to train Large Language Models, providing tools for addressing legal and ethical concerns in AI development.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:1313/post/get-started/</link>
+      <link>https://geleideng.github.io/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/get-started/</guid>
+      <guid>https://geleideng.github.io/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -274,9 +382,9 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:1313/post/second-brain/</link>
+      <link>https://geleideng.github.io/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/second-brain/</guid>
+      <guid>https://geleideng.github.io/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -386,9 +494,9 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>http://localhost:1313/post/data-visualization/</link>
+      <link>https://geleideng.github.io/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/data-visualization/</guid>
+      <guid>https://geleideng.github.io/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -399,7 +507,7 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
 
 
 
-&lt;div id=&#34;chart-258479163&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-832159476&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -417,7 +525,7 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-258479163&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-832159476&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -596,9 +704,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>http://localhost:1313/post/teach-courses/</link>
+      <link>https://geleideng.github.io/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/teach-courses/</guid>
+      <guid>https://geleideng.github.io/post/teach-courses/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -647,7 +755,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://geleideng.github.io/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -706,17 +814,17 @@ data.head()
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>https://geleideng.github.io/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>https://geleideng.github.io/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learn JavaScript</title>
-      <link>http://localhost:1313/teaching/js/</link>
+      <link>https://geleideng.github.io/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/js/</guid>
+      <guid>https://geleideng.github.io/teaching/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -759,7 +867,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://geleideng.github.io/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -836,9 +944,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>http://localhost:1313/teaching/python/</link>
+      <link>https://geleideng.github.io/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/python/</guid>
+      <guid>https://geleideng.github.io/teaching/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -881,7 +989,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://geleideng.github.io/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -958,9 +1066,9 @@ data.head()
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>http://localhost:1313/post/project-management/</link>
+      <link>https://geleideng.github.io/post/project-management/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/project-management/</guid>
+      <guid>https://geleideng.github.io/post/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
@@ -1032,130 +1140,139 @@ Parallel 4   :         des6, after des4, 1d
     </item>
     
     <item>
-      <title>NAUTILUS: Automated RESTful API Vulnerability Detection</title>
-      <link>http://localhost:1313/publication/nautilus/</link>
+      <title>NAUTILUS</title>
+      <link>https://geleideng.github.io/project/nautilus/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/nautilus/</guid>
+      <guid>https://geleideng.github.io/project/nautilus/</guid>
+      <description>&lt;p&gt;NAUTILUS is an automated RESTful API vulnerability detection framework published at USENIX Security 2023.&lt;/p&gt;
+&lt;p&gt;It combines API specification analysis with dynamic testing to uncover security flaws in modern web services.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>NAUTILUS: Automated RESTful API Vulnerability Detection</title>
+      <link>https://geleideng.github.io/publication/nautilus/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/nautilus/</guid>
       <description>&lt;p&gt;NAUTILUS introduces an automated approach to RESTful API vulnerability detection, addressing a critical gap in web security testing. The framework combines static specification analysis with intelligent dynamic fuzzing to discover security vulnerabilities in modern web APIs.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>PentestGPT</title>
-      <link>http://localhost:1313/project/pentestgpt/</link>
+      <link>https://geleideng.github.io/project/pentestgpt/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pentestgpt/</guid>
-      <description>&lt;p&gt;An LLM-empowered Automatic Penetration Testing Tool with 8k+ GitHub stars.&lt;/p&gt;
+      <guid>https://geleideng.github.io/project/pentestgpt/</guid>
+      <description>&lt;p&gt;An LLM-empowered automatic penetration testing framework with 14k+ GitHub stars and 2.4k+ forks.&lt;/p&gt;
 &lt;p&gt;PentestGPT is designed to automate penetration testing by leveraging the domain knowledge inherent in Large Language Models. It features a three-module architecture (Reasoning, Generation, and Parsing) that emulates human penetration testing workflows.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Automated penetration testing guidance&lt;/li&gt;
-&lt;li&gt;Integration with multiple LLM backends&lt;/li&gt;
-&lt;li&gt;Real-world evaluation on CTF challenges&lt;/li&gt;
-&lt;li&gt;228.6% improvement in task completion over baseline models&lt;/li&gt;
+&lt;li&gt;Multi-module agent design for reasoning, generation, and parsing&lt;/li&gt;
+&lt;li&gt;Integration with multiple LLM backends and real-world security workflows&lt;/li&gt;
+&lt;li&gt;Evaluation on CTF challenges and practical penetration testing targets&lt;/li&gt;
+&lt;li&gt;228.6% task completion improvement over baseline GPT models&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Recognition:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Distinguished Artifact Award at USENIX Security 2024&lt;/li&gt;
-&lt;li&gt;Active collaboration with industry partners (Huawei, ByteDance, etc.)&lt;/li&gt;
+&lt;li&gt;Widely used open-source security research artifact with active community adoption&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>SoK: Rethinking Sensor Spoofing Attacks against Robotic Vehicles from a Systematic View</title>
-      <link>http://localhost:1313/publication/sok-sensor-spoofing/</link>
+      <link>https://geleideng.github.io/publication/sok-sensor-spoofing/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/sok-sensor-spoofing/</guid>
+      <guid>https://geleideng.github.io/publication/sok-sensor-spoofing/</guid>
       <description>&lt;p&gt;This Systematization of Knowledge (SoK) paper provides a comprehensive overview of sensor spoofing attacks against robotic vehicles, establishing a taxonomy of attack methods and analyzing the effectiveness of various defense mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Prompt Injection Attack against LLM-integrated Applications</title>
-      <link>http://localhost:1313/publication/prompt-injection/</link>
+      <link>https://geleideng.github.io/publication/prompt-injection/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/prompt-injection/</guid>
+      <guid>https://geleideng.github.io/publication/prompt-injection/</guid>
       <description>&lt;p&gt;This work systematically investigates prompt injection vulnerabilities in LLM-integrated applications, revealing critical security risks and providing recommendations for secure LLM deployment.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study</title>
-      <link>http://localhost:1313/publication/jailbreaking-chatgpt/</link>
+      <link>https://geleideng.github.io/publication/jailbreaking-chatgpt/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreaking-chatgpt/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreaking-chatgpt/</guid>
       <description>&lt;p&gt;This work presents the first comprehensive empirical study on jailbreaking ChatGPT through prompt engineering, identifying key vulnerability patterns and providing insights for improving LLM safety mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Automatic Code Summarization via ChatGPT: How Far Are We?</title>
-      <link>http://localhost:1313/publication/code-summarization-chatgpt/</link>
+      <link>https://geleideng.github.io/publication/code-summarization-chatgpt/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/code-summarization-chatgpt/</guid>
+      <guid>https://geleideng.github.io/publication/code-summarization-chatgpt/</guid>
       <description>&lt;p&gt;This work provides an empirical evaluation of ChatGPT for automatic code summarization, assessing its capabilities and comparing against existing approaches.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Threat of Offensive AI to Organizations</title>
-      <link>http://localhost:1313/publication/offensive-ai/</link>
+      <link>https://geleideng.github.io/publication/offensive-ai/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/offensive-ai/</guid>
+      <guid>https://geleideng.github.io/publication/offensive-ai/</guid>
       <description>&lt;p&gt;This work examines the growing threat of offensive AI to organizations, providing a framework for understanding AI-powered attacks and developing effective defenses against this emerging threat landscape.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>On the (In)Security of Secure ROS2</title>
-      <link>http://localhost:1313/publication/ros2-security/</link>
+      <link>https://geleideng.github.io/publication/ros2-security/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ros2-security/</guid>
+      <guid>https://geleideng.github.io/publication/ros2-security/</guid>
       <description>&lt;p&gt;This work presents the first comprehensive security analysis of ROS2&amp;rsquo;s security mechanisms. We discovered multiple vulnerabilities in the Secure ROS2 implementation that can be exploited to compromise robotic systems, highlighting critical security issues in modern robotics middleware.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Morest: Model-based RESTful API Testing with Execution Feedback</title>
-      <link>http://localhost:1313/publication/morest/</link>
+      <link>https://geleideng.github.io/publication/morest/</link>
       <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/morest/</guid>
+      <guid>https://geleideng.github.io/publication/morest/</guid>
       <description>&lt;p&gt;Morest introduces a novel approach to RESTful API testing that combines model-based testing with execution feedback, enabling more effective test generation and vulnerability discovery.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>An Investigation of Byzantine Threats in Multi-Robot Systems</title>
-      <link>http://localhost:1313/publication/raid21-byzantine/</link>
+      <link>https://geleideng.github.io/publication/raid21-byzantine/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/raid21-byzantine/</guid>
+      <guid>https://geleideng.github.io/publication/raid21-byzantine/</guid>
       <description>&lt;p&gt;This work investigates Byzantine threats in multi-robot systems, presenting attack methodologies and detection mechanisms for securing collaborative robotics applications.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Novel Denial-of-Service Attacks Against Cloud-based Multi-Robot Systems</title>
-      <link>http://localhost:1313/publication/dos-multi-robot/</link>
+      <link>https://geleideng.github.io/publication/dos-multi-robot/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/dos-multi-robot/</guid>
+      <guid>https://geleideng.github.io/publication/dos-multi-robot/</guid>
       <description>&lt;p&gt;This work investigates security vulnerabilities in cloud-based multi-robot systems, presenting novel denial-of-service attacks that can disrupt robot coordination and mission execution in distributed robotics applications.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Efficient Password Guessing based on a Password Segmentation Approach</title>
-      <link>http://localhost:1313/publication/globecom19-password/</link>
+      <link>https://geleideng.github.io/publication/globecom19-password/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/globecom19-password/</guid>
+      <guid>https://geleideng.github.io/publication/globecom19-password/</guid>
       <description>&lt;p&gt;This work introduces a segmentation-based approach to password guessing, demonstrating improved efficiency in security analysis tasks.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Fog Computing Based Approach to DDoS Mitigation in IIoT Systems</title>
-      <link>http://localhost:1313/publication/fog-ddos/</link>
+      <link>https://geleideng.github.io/publication/fog-ddos/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fog-ddos/</guid>
+      <guid>https://geleideng.github.io/publication/fog-ddos/</guid>
       <description>&lt;p&gt;This work introduces a fog computing based framework for DDoS mitigation in Industrial IoT systems, providing distributed defense capabilities at the network edge.&lt;/p&gt;
 </description>
     </item>

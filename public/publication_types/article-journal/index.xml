@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article-Journal | Gelei Deng</title>
-    <link>http://localhost:1313/publication_types/article-journal/</link>
-      <atom:link href="http://localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/publication_types/article-journal/</link>
+      <atom:link href="https://geleideng.github.io/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Article-Journal</title>
-      <link>http://localhost:1313/publication_types/article-journal/</link>
+      <link>https://geleideng.github.io/publication_types/article-journal/</link>
     </image>
     
     <item>
       <title>The Threat of Offensive AI to Organizations</title>
-      <link>http://localhost:1313/publication/offensive-ai/</link>
+      <link>https://geleideng.github.io/publication/offensive-ai/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/offensive-ai/</guid>
+      <guid>https://geleideng.github.io/publication/offensive-ai/</guid>
       <description>&lt;p&gt;This work examines the growing threat of offensive AI to organizations, providing a framework for understanding AI-powered attacks and developing effective defenses against this emerging threat landscape.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Novel Denial-of-Service Attacks Against Cloud-based Multi-Robot Systems</title>
-      <link>http://localhost:1313/publication/dos-multi-robot/</link>
+      <link>https://geleideng.github.io/publication/dos-multi-robot/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/dos-multi-robot/</guid>
+      <guid>https://geleideng.github.io/publication/dos-multi-robot/</guid>
       <description>&lt;p&gt;This work investigates security vulnerabilities in cloud-based multi-robot systems, presenting novel denial-of-service attacks that can disrupt robot coordination and mission execution in distributed robotics applications.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Fog Computing Based Approach to DDoS Mitigation in IIoT Systems</title>
-      <link>http://localhost:1313/publication/fog-ddos/</link>
+      <link>https://geleideng.github.io/publication/fog-ddos/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fog-ddos/</guid>
+      <guid>https://geleideng.github.io/publication/fog-ddos/</guid>
       <description>&lt;p&gt;This work introduces a fog computing based framework for DDoS mitigation in Industrial IoT systems, providing distributed defense capabilities at the network edge.&lt;/p&gt;
 </description>
     </item>

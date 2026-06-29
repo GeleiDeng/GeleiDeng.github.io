@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cybersecurity | Gelei Deng</title>
-    <link>http://localhost:1313/tags/cybersecurity/</link>
-      <atom:link href="http://localhost:1313/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/cybersecurity/</link>
+      <atom:link href="https://geleideng.github.io/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <description>Cybersecurity</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Cybersecurity</title>
-      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <link>https://geleideng.github.io/tags/cybersecurity/</link>
     </image>
     
     <item>
       <title>Controllable Spoofing Attacks on Visual SLAM in Robotic Vehicles</title>
-      <link>http://localhost:1313/publication/visual-slam-spoofing/</link>
+      <link>https://geleideng.github.io/publication/visual-slam-spoofing/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/visual-slam-spoofing/</guid>
+      <guid>https://geleideng.github.io/publication/visual-slam-spoofing/</guid>
       <description>&lt;p&gt;This work investigates security vulnerabilities in Visual SLAM systems used by robotic vehicles, presenting controllable spoofing attacks that can precisely manipulate vehicle navigation and localization.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>VisionGuard: Secure and Robust Visual Perception of Autonomous Vehicles in Practice</title>
-      <link>http://localhost:1313/publication/visionguard/</link>
+      <link>https://geleideng.github.io/publication/visionguard/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/visionguard/</guid>
+      <guid>https://geleideng.github.io/publication/visionguard/</guid>
       <description>&lt;p&gt;VisionGuard presents a practical approach to securing visual perception systems in autonomous vehicles, addressing critical vulnerabilities that could be exploited by adversaries in real-world scenarios.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing</title>
-      <link>http://localhost:1313/publication/pentestgpt/</link>
+      <link>https://geleideng.github.io/publication/pentestgpt/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pentestgpt/</guid>
+      <guid>https://geleideng.github.io/publication/pentestgpt/</guid>
       <description>&lt;p&gt;This work introduces PentestGPT, a groundbreaking approach to automated penetration testing that harnesses the power of Large Language Models. The tool addresses the long-standing challenge of automating security testing by leveraging LLMs&amp;rsquo; extensive domain knowledge and reasoning capabilities.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Three-Module Architecture&lt;/strong&gt;: Reasoning, Generation, and Parsing modules that work together to emulate human penetration testing workflows&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Real-World Evaluation&lt;/strong&gt;: Comprehensive benchmark using actual penetration testing targets and CTF challenges&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Significant Performance Gains&lt;/strong&gt;: 228.6% improvement in task completion rates compared to baseline GPT-3.5 model&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Over 6,500 GitHub stars demonstrating strong industry adoption&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: 14k+ GitHub stars and 2.4k+ forks demonstrating strong industry adoption&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Technical Innovation:&lt;/strong&gt;
 PentestGPT addresses critical challenges in LLM-based security testing, including context loss and task-specific reasoning. The framework systematically breaks down complex penetration testing scenarios into manageable sub-tasks, enabling more effective automated security assessments.&lt;/p&gt;
@@ -51,54 +51,54 @@ PentestGPT addresses critical challenges in LLM-based security testing, includin
     
     <item>
       <title>SoK: Rethinking Sensor Spoofing Attacks against Robotic Vehicles from a Systematic View</title>
-      <link>http://localhost:1313/publication/sok-sensor-spoofing/</link>
+      <link>https://geleideng.github.io/publication/sok-sensor-spoofing/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/sok-sensor-spoofing/</guid>
+      <guid>https://geleideng.github.io/publication/sok-sensor-spoofing/</guid>
       <description>&lt;p&gt;This Systematization of Knowledge (SoK) paper provides a comprehensive overview of sensor spoofing attacks against robotic vehicles, establishing a taxonomy of attack methods and analyzing the effectiveness of various defense mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Threat of Offensive AI to Organizations</title>
-      <link>http://localhost:1313/publication/offensive-ai/</link>
+      <link>https://geleideng.github.io/publication/offensive-ai/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/offensive-ai/</guid>
+      <guid>https://geleideng.github.io/publication/offensive-ai/</guid>
       <description>&lt;p&gt;This work examines the growing threat of offensive AI to organizations, providing a framework for understanding AI-powered attacks and developing effective defenses against this emerging threat landscape.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>On the (In)Security of Secure ROS2</title>
-      <link>http://localhost:1313/publication/ros2-security/</link>
+      <link>https://geleideng.github.io/publication/ros2-security/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ros2-security/</guid>
+      <guid>https://geleideng.github.io/publication/ros2-security/</guid>
       <description>&lt;p&gt;This work presents the first comprehensive security analysis of ROS2&amp;rsquo;s security mechanisms. We discovered multiple vulnerabilities in the Secure ROS2 implementation that can be exploited to compromise robotic systems, highlighting critical security issues in modern robotics middleware.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Novel Denial-of-Service Attacks Against Cloud-based Multi-Robot Systems</title>
-      <link>http://localhost:1313/publication/dos-multi-robot/</link>
+      <link>https://geleideng.github.io/publication/dos-multi-robot/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/dos-multi-robot/</guid>
+      <guid>https://geleideng.github.io/publication/dos-multi-robot/</guid>
       <description>&lt;p&gt;This work investigates security vulnerabilities in cloud-based multi-robot systems, presenting novel denial-of-service attacks that can disrupt robot coordination and mission execution in distributed robotics applications.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Efficient Password Guessing based on a Password Segmentation Approach</title>
-      <link>http://localhost:1313/publication/globecom19-password/</link>
+      <link>https://geleideng.github.io/publication/globecom19-password/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/globecom19-password/</guid>
+      <guid>https://geleideng.github.io/publication/globecom19-password/</guid>
       <description>&lt;p&gt;This work introduces a segmentation-based approach to password guessing, demonstrating improved efficiency in security analysis tasks.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Fog Computing Based Approach to DDoS Mitigation in IIoT Systems</title>
-      <link>http://localhost:1313/publication/fog-ddos/</link>
+      <link>https://geleideng.github.io/publication/fog-ddos/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fog-ddos/</guid>
+      <guid>https://geleideng.github.io/publication/fog-ddos/</guid>
       <description>&lt;p&gt;This work introduces a fog computing based framework for DDoS mitigation in Industrial IoT systems, providing distributed defense capabilities at the network edge.&lt;/p&gt;
 </description>
     </item>

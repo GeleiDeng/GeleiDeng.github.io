@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Alignment | Gelei Deng</title>
+    <link>https://geleideng.github.io/tags/model-alignment/</link>
+      <atom:link href="https://geleideng.github.io/tags/model-alignment/index.xml" rel="self" type="application/rss+xml" />
+    <description>Model Alignment</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <title>Model Alignment</title>
+      <link>https://geleideng.github.io/tags/model-alignment/</link>
+    </image>
+    
+    <item>
+      <title>RSafe: Incentivizing Proactive Reasoning to Build Robust and Adaptive LLM Safeguards</title>
+      <link>https://geleideng.github.io/publication/rsafe/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/rsafe/</guid>
+      <description>&lt;p&gt;RSafe targets the brittleness of conventional guard models by making safety decisions through explicit reasoning over a user-specified policy, then reinforcing those reasoning traces to improve robustness on adversarial and out-of-distribution safety violations.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

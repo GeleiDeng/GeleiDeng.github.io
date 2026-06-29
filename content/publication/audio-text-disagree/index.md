@@ -31,7 +31,9 @@ featured: false
 links:
 - name: EMNLP
   url: https://2025.emnlp.org/
-url_pdf: ''
+- name: arXiv
+  url: https://arxiv.org/abs/2508.15407
+url_pdf: 'https://arxiv.org/pdf/2508.15407'
 url_code: ''
 url_dataset: ''
 url_poster: ''

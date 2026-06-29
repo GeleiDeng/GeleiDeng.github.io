@@ -2,22 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CAPTCHA | Gelei Deng</title>
-    <link>http://localhost:1313/tags/captcha/</link>
-      <atom:link href="http://localhost:1313/tags/captcha/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/captcha/</link>
+      <atom:link href="https://geleideng.github.io/tags/captcha/index.xml" rel="self" type="application/rss+xml" />
     <description>CAPTCHA</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>CAPTCHA</title>
-      <link>http://localhost:1313/tags/captcha/</link>
+      <link>https://geleideng.github.io/tags/captcha/</link>
     </image>
     
     <item>
       <title>Oedipus: LLM-enchanced Reasoning CAPTCHA Solver</title>
-      <link>http://localhost:1313/publication/oedipus/</link>
+      <link>https://geleideng.github.io/publication/oedipus/</link>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/oedipus/</guid>
+      <guid>https://geleideng.github.io/publication/oedipus/</guid>
       <description>&lt;p&gt;Oedipus demonstrates the vulnerability of reasoning-based CAPTCHAs to LLM-powered attacks, highlighting the need for more robust human verification mechanisms in the age of advanced AI.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IllusionCAPTCHA: A CAPTCHA based on Visual Illusion</title>
+      <link>https://geleideng.github.io/publication/illusioncaptcha/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/illusioncaptcha/</guid>
+      <description>&lt;p&gt;IllusionCAPTCHA responds to the weakening of traditional CAPTCHA schemes in the LLM era by designing verification challenges around perceptual illusions rather than text recognition or simple reasoning.&lt;/p&gt;
 </description>
     </item>
     

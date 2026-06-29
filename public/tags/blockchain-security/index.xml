@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blockchain Security | Gelei Deng</title>
-    <link>http://localhost:1313/tags/blockchain-security/</link>
-      <atom:link href="http://localhost:1313/tags/blockchain-security/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/blockchain-security/</link>
+      <atom:link href="https://geleideng.github.io/tags/blockchain-security/index.xml" rel="self" type="application/rss+xml" />
     <description>Blockchain Security</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Blockchain Security</title>
-      <link>http://localhost:1313/tags/blockchain-security/</link>
+      <link>https://geleideng.github.io/tags/blockchain-security/</link>
     </image>
     
     <item>
       <title>PonziGuard: Detecting Ponzi Schemes on Ethereum with Contract Runtime Behavior Graph (CRBG)</title>
-      <link>http://localhost:1313/publication/ponziguard/</link>
+      <link>https://geleideng.github.io/publication/ponziguard/</link>
       <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ponziguard/</guid>
+      <guid>https://geleideng.github.io/publication/ponziguard/</guid>
       <description>&lt;p&gt;PonziGuard introduces Contract Runtime Behavior Graphs for detecting Ponzi scheme smart contracts on Ethereum, providing more accurate detection than existing approaches.&lt;/p&gt;
 </description>
     </item>

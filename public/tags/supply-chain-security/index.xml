@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supply Chain Security | Gelei Deng</title>
+    <link>https://geleideng.github.io/tags/supply-chain-security/</link>
+      <atom:link href="https://geleideng.github.io/tags/supply-chain-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Supply Chain Security</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <title>Supply Chain Security</title>
+      <link>https://geleideng.github.io/tags/supply-chain-security/</link>
+    </image>
+    
+    <item>
+      <title>Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale</title>
+      <link>https://geleideng.github.io/publication/agent-skills-wild/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/agent-skills-wild/</guid>
+      <description>&lt;p&gt;This work studies agent skills as an emerging software supply-chain attack surface and provides empirical evidence for capability-based permissions and mandatory security vetting of skill ecosystems.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Byzantine Attacks | Gelei Deng</title>
-    <link>http://localhost:1313/tags/byzantine-attacks/</link>
-      <atom:link href="http://localhost:1313/tags/byzantine-attacks/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/byzantine-attacks/</link>
+      <atom:link href="https://geleideng.github.io/tags/byzantine-attacks/index.xml" rel="self" type="application/rss+xml" />
     <description>Byzantine Attacks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Byzantine Attacks</title>
-      <link>http://localhost:1313/tags/byzantine-attacks/</link>
+      <link>https://geleideng.github.io/tags/byzantine-attacks/</link>
     </image>
     
     <item>
       <title>An Investigation of Byzantine Threats in Multi-Robot Systems</title>
-      <link>http://localhost:1313/publication/raid21-byzantine/</link>
+      <link>https://geleideng.github.io/publication/raid21-byzantine/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/raid21-byzantine/</guid>
+      <guid>https://geleideng.github.io/publication/raid21-byzantine/</guid>
       <description>&lt;p&gt;This work investigates Byzantine threats in multi-robot systems, presenting attack methodologies and detection mechanisms for securing collaborative robotics applications.&lt;/p&gt;
 </description>
     </item>

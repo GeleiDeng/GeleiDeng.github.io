@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Odometry | Gelei Deng</title>
+    <link>https://geleideng.github.io/tags/visual-odometry/</link>
+      <atom:link href="https://geleideng.github.io/tags/visual-odometry/index.xml" rel="self" type="application/rss+xml" />
+    <description>Visual Odometry</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <title>Visual Odometry</title>
+      <link>https://geleideng.github.io/tags/visual-odometry/</link>
+    </image>
+    
+    <item>
+      <title>Detecting Perception-Based Attacks using Visual Odometry: Inconsistency Modeling and Checking on Robotic States</title>
+      <link>https://geleideng.github.io/publication/visual-odometry-robotic-states/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/visual-odometry-robotic-states/</guid>
+      <description>&lt;p&gt;The paper continues my robotics-security work by connecting perception attack detection with state inconsistency modeling, using visual odometry as a practical signal for identifying compromised robotic perception.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

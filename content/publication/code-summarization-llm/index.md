@@ -10,15 +10,15 @@ authors:
 - admin
 - Yang Liu
 - Zhenyu Chen
-date: "2024-07-10T00:00:00Z"
+date: "2025-04-27T00:00:00Z"
 doi: ""
 
-publishDate: "2024-07-10T00:00:00Z"
+publishDate: "2025-04-27T00:00:00Z"
 
 publication_types: ["article"]
 
-publication: "arXiv preprint arXiv:2407.07959"
-publication_short: "arXiv 2024"
+publication: "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)"
+publication_short: "ICSE 2025"
 
 abstract: "Source code summarization is essential for software maintenance and comprehension. This work provides a comprehensive study of code summarization capabilities in the era of Large Language Models, evaluating state-of-the-art LLMs and identifying key challenges and opportunities for improvement."
 

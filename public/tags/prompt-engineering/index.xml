@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prompt Engineering | Gelei Deng</title>
-    <link>http://localhost:1313/tags/prompt-engineering/</link>
-      <atom:link href="http://localhost:1313/tags/prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/prompt-engineering/</link>
+      <atom:link href="https://geleideng.github.io/tags/prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
     <description>Prompt Engineering</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Prompt Engineering</title>
-      <link>http://localhost:1313/tags/prompt-engineering/</link>
+      <link>https://geleideng.github.io/tags/prompt-engineering/</link>
     </image>
     
     <item>
       <title>A Hitchhiker&#39;s Guide to Jailbreaking ChatGPT via Prompt Engineering</title>
-      <link>http://localhost:1313/publication/hitchhiker-jailbreak/</link>
+      <link>https://geleideng.github.io/publication/hitchhiker-jailbreak/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hitchhiker-jailbreak/</guid>
+      <guid>https://geleideng.github.io/publication/hitchhiker-jailbreak/</guid>
       <description>&lt;p&gt;This workshop paper provides practical guidance on jailbreaking ChatGPT through prompt engineering, offering insights for both attack and defense research.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study</title>
-      <link>http://localhost:1313/publication/jailbreaking-chatgpt/</link>
+      <link>https://geleideng.github.io/publication/jailbreaking-chatgpt/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreaking-chatgpt/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreaking-chatgpt/</guid>
       <description>&lt;p&gt;This work presents the first comprehensive empirical study on jailbreaking ChatGPT through prompt engineering, identifying key vulnerability patterns and providing insights for improving LLM safety mechanisms.&lt;/p&gt;
 </description>
     </item>

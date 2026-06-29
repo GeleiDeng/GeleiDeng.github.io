@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI Ethics | Gelei Deng</title>
-    <link>http://localhost:1313/tags/ai-ethics/</link>
-      <atom:link href="http://localhost:1313/tags/ai-ethics/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/ai-ethics/</link>
+      <atom:link href="https://geleideng.github.io/tags/ai-ethics/index.xml" rel="self" type="application/rss+xml" />
     <description>AI Ethics</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>AI Ethics</title>
-      <link>http://localhost:1313/tags/ai-ethics/</link>
+      <link>https://geleideng.github.io/tags/ai-ethics/</link>
     </image>
     
     <item>
+      <title>GenderCARE: A Comprehensive Framework for Assessing and Reducing Gender Bias in Large Language Models</title>
+      <link>https://geleideng.github.io/publication/gendercare/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/gendercare/</guid>
+      <description>&lt;p&gt;GenderCARE contributes practical criteria, benchmarks, and reduction techniques for measuring and mitigating gender bias in LLMs while preserving general task performance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Digger: Detecting Copyright Content Mis-usage in Large Language Model Training</title>
-      <link>http://localhost:1313/publication/digger/</link>
+      <link>https://geleideng.github.io/publication/digger/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/digger/</guid>
+      <guid>https://geleideng.github.io/publication/digger/</guid>
       <description>&lt;p&gt;Digger introduces methods for detecting whether copyrighted content has been used to train Large Language Models, providing tools for addressing legal and ethical concerns in AI development.&lt;/p&gt;
 </description>
     </item>

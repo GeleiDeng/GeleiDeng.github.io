@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Automation | Gelei Deng</title>
+    <link>https://geleideng.github.io/tags/security-automation/</link>
+      <atom:link href="https://geleideng.github.io/tags/security-automation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Security Automation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <title>Security Automation</title>
+      <link>https://geleideng.github.io/tags/security-automation/</link>
+    </image>
+    
+    <item>
+      <title>Excalibur</title>
+      <link>https://geleideng.github.io/project/excalibur/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/project/excalibur/</guid>
+      <description>&lt;p&gt;Excalibur is a difficulty-aware LLM agent design for real-world penetration testing.&lt;/p&gt;
+&lt;p&gt;It couples typed tooling, retrieval-augmented security knowledge, task difficulty assessment, and evidence-guided attack tree search to reduce planning failures in multi-step penetration testing tasks.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What Makes a Good LLM Agent for Real-world Penetration Testing?</title>
+      <link>https://geleideng.github.io/publication/llm-agent-pentest/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/llm-agent-pentest/</guid>
+      <description>&lt;p&gt;This paper examines why LLM penetration testing systems succeed or fail in real-world settings, then proposes Excalibur to improve task selection and attack-chain planning through difficulty-aware reasoning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

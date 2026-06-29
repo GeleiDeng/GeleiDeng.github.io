@@ -2,30 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jailbreak Attacks | Gelei Deng</title>
-    <link>http://localhost:1313/tags/jailbreak-attacks/</link>
-      <atom:link href="http://localhost:1313/tags/jailbreak-attacks/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/tags/jailbreak-attacks/</link>
+      <atom:link href="https://geleideng.github.io/tags/jailbreak-attacks/index.xml" rel="self" type="application/rss+xml" />
     <description>Jailbreak Attacks</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Jailbreak Attacks</title>
-      <link>http://localhost:1313/tags/jailbreak-attacks/</link>
+      <link>https://geleideng.github.io/tags/jailbreak-attacks/</link>
     </image>
     
     <item>
+      <title>Efficient Detection of Toxic Prompts in Large Language Models</title>
+      <link>https://geleideng.github.io/publication/toxic-prompts/</link>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/toxic-prompts/</guid>
+      <description>&lt;p&gt;ToxicDetector targets practical, low-latency screening of toxic and jailbreak-style prompts, making prompt safety checks more deployable in interactive LLM applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Hitchhiker&#39;s Guide to Jailbreaking ChatGPT via Prompt Engineering</title>
-      <link>http://localhost:1313/publication/hitchhiker-jailbreak/</link>
+      <link>https://geleideng.github.io/publication/hitchhiker-jailbreak/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hitchhiker-jailbreak/</guid>
+      <guid>https://geleideng.github.io/publication/hitchhiker-jailbreak/</guid>
       <description>&lt;p&gt;This workshop paper provides practical guidance on jailbreaking ChatGPT through prompt engineering, offering insights for both attack and defense research.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots</title>
-      <link>http://localhost:1313/publication/masterkey/</link>
+      <title>MASTERKEY</title>
+      <link>https://geleideng.github.io/project/masterkey/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/masterkey/</guid>
+      <guid>https://geleideng.github.io/project/masterkey/</guid>
+      <description>&lt;p&gt;MASTERKEY is a research framework for automated jailbreak attack generation and defense evaluation for LLM chatbots.&lt;/p&gt;
+&lt;p&gt;The framework supports systematic analysis of jailbreak strategies across commercial chatbot systems and was published at NDSS 2024.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots</title>
+      <link>https://geleideng.github.io/publication/masterkey/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/masterkey/</guid>
       <description>&lt;p&gt;This work presents MASTERKEY, a systematic approach to understanding and exploiting vulnerabilities in Large Language Model chatbots. The framework introduces novel methodologies for automated jailbreak attack generation and provides comprehensive analysis of existing defense mechanisms.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Contributions:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -40,18 +58,27 @@
     
     <item>
       <title>A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models</title>
-      <link>http://localhost:1313/publication/jailbreak-comprehensive/</link>
+      <link>https://geleideng.github.io/publication/jailbreak-comprehensive/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreak-comprehensive/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreak-comprehensive/</guid>
       <description>&lt;p&gt;This work provides a comprehensive study of jailbreak attacks and defenses for Large Language Models, establishing benchmarks and providing insights for the development of more robust LLM security mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
-      <link>http://localhost:1313/publication/pandora/</link>
+      <title>PANDORA</title>
+      <link>https://geleideng.github.io/project/pandora/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pandora/</guid>
+      <guid>https://geleideng.github.io/project/pandora/</guid>
+      <description>&lt;p&gt;PANDORA studies jailbreak attacks against retrieval-augmented generation systems through retrieval database poisoning.&lt;/p&gt;
+&lt;p&gt;The work received the Distinguished Paper Award at AISCC 2024 and highlights a practical attack surface in RAG-enhanced LLM deployments.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning</title>
+      <link>https://geleideng.github.io/publication/pandora/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/pandora/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Distinguished Paper Award&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;PANDORA introduces a novel attack vector against RAG-enhanced LLM systems. By strategically poisoning retrieval databases, attackers can effectively bypass safety mechanisms in models like GPT-4, highlighting critical security considerations for RAG deployments.&lt;/p&gt;
 </description>
@@ -59,9 +86,9 @@
     
     <item>
       <title>Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study</title>
-      <link>http://localhost:1313/publication/jailbreaking-chatgpt/</link>
+      <link>https://geleideng.github.io/publication/jailbreaking-chatgpt/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreaking-chatgpt/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreaking-chatgpt/</guid>
       <description>&lt;p&gt;This work presents the first comprehensive empirical study on jailbreaking ChatGPT through prompt engineering, identifying key vulnerability patterns and providing insights for improving LLM safety mechanisms.&lt;/p&gt;
 </description>
     </item>

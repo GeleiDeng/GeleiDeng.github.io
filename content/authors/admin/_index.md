@@ -162,7 +162,7 @@ awards:
     awarder: USENIX Security 2024
     icon: academic-cap
     summary: |
-      Awarded for PentestGPT: An LLM-empowered Automatic Penetration Testing Tool. Open-source tool with 8k+ GitHub stars demonstrating significant community impact.
+      Awarded for PentestGPT: An LLM-empowered Automatic Penetration Testing Tool. Open-source tool with 14k+ GitHub stars demonstrating significant community impact.
   - title: Distinguished Paper Award
     url: ''
     date: '2024-02-01'

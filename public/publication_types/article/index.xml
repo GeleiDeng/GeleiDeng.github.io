@@ -2,66 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article | Gelei Deng</title>
-    <link>http://localhost:1313/publication_types/article/</link>
-      <atom:link href="http://localhost:1313/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://geleideng.github.io/publication_types/article/</link>
+      <atom:link href="https://geleideng.github.io/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://geleideng.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Article</title>
-      <link>http://localhost:1313/publication_types/article/</link>
+      <link>https://geleideng.github.io/publication_types/article/</link>
     </image>
     
     <item>
+      <title>What Makes a Good LLM Agent for Real-world Penetration Testing?</title>
+      <link>https://geleideng.github.io/publication/llm-agent-pentest/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/llm-agent-pentest/</guid>
+      <description>&lt;p&gt;This paper examines why LLM penetration testing systems succeed or fail in real-world settings, then proposes Excalibur to improve task selection and attack-chain planning through difficulty-aware reasoning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale</title>
+      <link>https://geleideng.github.io/publication/agent-skills-wild/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/agent-skills-wild/</guid>
+      <description>&lt;p&gt;This work studies agent skills as an emerging software supply-chain attack surface and provides empirical evidence for capability-based permissions and mandatory security vetting of skill ecosystems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Source Code Summarization in the Era of Large Language Models</title>
-      <link>http://localhost:1313/publication/code-summarization-llm/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/code-summarization-llm/</guid>
+      <link>https://geleideng.github.io/publication/code-summarization-llm/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://geleideng.github.io/publication/code-summarization-llm/</guid>
       <description>&lt;p&gt;This work examines how Large Language Models are transforming source code summarization, providing insights into their capabilities and limitations for automated software documentation.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models</title>
-      <link>http://localhost:1313/publication/jailbreak-comprehensive/</link>
+      <link>https://geleideng.github.io/publication/jailbreak-comprehensive/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreak-comprehensive/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreak-comprehensive/</guid>
       <description>&lt;p&gt;This work provides a comprehensive study of jailbreak attacks and defenses for Large Language Models, establishing benchmarks and providing insights for the development of more robust LLM security mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Digger: Detecting Copyright Content Mis-usage in Large Language Model Training</title>
-      <link>http://localhost:1313/publication/digger/</link>
+      <link>https://geleideng.github.io/publication/digger/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/digger/</guid>
+      <guid>https://geleideng.github.io/publication/digger/</guid>
       <description>&lt;p&gt;Digger introduces methods for detecting whether copyrighted content has been used to train Large Language Models, providing tools for addressing legal and ethical concerns in AI development.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Prompt Injection Attack against LLM-integrated Applications</title>
-      <link>http://localhost:1313/publication/prompt-injection/</link>
+      <link>https://geleideng.github.io/publication/prompt-injection/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/prompt-injection/</guid>
+      <guid>https://geleideng.github.io/publication/prompt-injection/</guid>
       <description>&lt;p&gt;This work systematically investigates prompt injection vulnerabilities in LLM-integrated applications, revealing critical security risks and providing recommendations for secure LLM deployment.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study</title>
-      <link>http://localhost:1313/publication/jailbreaking-chatgpt/</link>
+      <link>https://geleideng.github.io/publication/jailbreaking-chatgpt/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jailbreaking-chatgpt/</guid>
+      <guid>https://geleideng.github.io/publication/jailbreaking-chatgpt/</guid>
       <description>&lt;p&gt;This work presents the first comprehensive empirical study on jailbreaking ChatGPT through prompt engineering, identifying key vulnerability patterns and providing insights for improving LLM safety mechanisms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Automatic Code Summarization via ChatGPT: How Far Are We?</title>
-      <link>http://localhost:1313/publication/code-summarization-chatgpt/</link>
+      <link>https://geleideng.github.io/publication/code-summarization-chatgpt/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/code-summarization-chatgpt/</guid>
+      <guid>https://geleideng.github.io/publication/code-summarization-chatgpt/</guid>
       <description>&lt;p&gt;This work provides an empirical evaluation of ChatGPT for automatic code summarization, assessing its capabilities and comparing against existing approaches.&lt;/p&gt;
 </description>
     </item>
